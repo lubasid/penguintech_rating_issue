@@ -1,0 +1,2859 @@
+<CommlPkgPolicyQuoteInqRq xmlns="http://www.acord.org/schema/PC/xml/2">
+   <BusinessPurposeTypeCd>NBQ</BusinessPurposeTypeCd>
+   <TransactionResponseDt>2019-08-14</TransactionResponseDt>
+   <Producer>
+      <GeneralPartyInfo>
+         <NameInfo id="f37840cf0f85481babbf830fc036ffeb">
+            <CommlName>
+               <CommercialName>SAMPLE ACCOUNT</CommercialName>
+            </CommlName>
+         </NameInfo>
+         <Addr id="644d26153df14e4899fccf8b0e77ff10">
+            <Addr1>1900 S 18TH AVE</Addr1>
+            <StateProvCd>WI</StateProvCd>
+            <AddrExt/>
+         </Addr>
+         <Communications>
+            <PhoneInfo>
+               <PhoneNumber>000-000-0000</PhoneNumber>
+            </PhoneInfo>
+         </Communications>
+      </GeneralPartyInfo>
+      <ProducerInfo>
+         <ContractNumber>99999</ContractNumber>
+         <ProducerRoleCd>Agency</ProducerRoleCd>
+      </ProducerInfo>
+   </Producer>
+   <InsuredOrPrincipal>
+      <ItemIdInfo>
+         <AgencyId>13453</AgencyId>
+         <OtherIdentifier>
+            <OtherIdTypeCd>Insured</OtherIdTypeCd>
+            <OtherId>5000245731</OtherId>
+         </OtherIdentifier>
+      </ItemIdInfo>
+      <GeneralPartyInfo>
+         <NameInfo>
+            <CommlName>
+               <CommercialName> Pitter-Patter Childcare_Bug_109122_IL__PERF_Dennis</CommercialName>
+            </CommlName>
+            <LegalEntityCd>LY</LegalEntityCd>
+            <SupplementaryNameInfo>
+               <SupplementaryNameCd>DBA</SupplementaryNameCd>
+               <SupplementaryName>Testing liferay</SupplementaryName>
+            </SupplementaryNameInfo>
+            <NameInfoExt/>
+         </NameInfo>
+         <Addr id="0d2c918f469242308d65facfc7b3738a">
+            <DetailAddr>
+               <PreDirectionCd>N</PreDirectionCd>
+               <StreetName>Berwick</StreetName>
+               <StreetTypeCd>Blvd</StreetTypeCd>
+               <StreetNumber>1605</StreetNumber>
+            </DetailAddr>
+            <City>Waukegan</City>
+            <StateProvCd>IL</StateProvCd>
+            <PostalCode>60085-1520</PostalCode>
+            <County>Lake County</County>
+            <Country>United States of America</Country>
+            <Latitude>42.383017</Latitude>
+            <Longitude>-87.859576</Longitude>
+            <AddrExt>
+               <Clearance xmlns="">
+                  <LastVerified>2019-08-14</LastVerified>
+               </Clearance>
+            </AddrExt>
+            <LegalAddr>
+               <LegalAddrCd>Block</LegalAddrCd>
+               <Description>170978618041016</Description>
+            </LegalAddr>
+         </Addr>
+         <Communications>
+            <PhoneInfo>
+               <PhoneNumber>123-456-7890</PhoneNumber>
+            </PhoneInfo>
+         </Communications>
+         <GeneralPartyInfoExt>
+            <Clearance xmlns="">
+               <ClearedDateTimeStamp>2019-08-14T11:55:21.672</ClearedDateTimeStamp>
+               <LastVerified>2019-08-14</LastVerified>
+            </Clearance>
+         </GeneralPartyInfoExt>
+      </GeneralPartyInfo>
+      <InsuredOrPrincipalInfo>
+         <BusinessInfo>
+            <SICCd>8351</SICCd>
+            <NAICSCd>624410</NAICSCd>
+            <GeneralLiabilityCd/>
+            <OperationsDesc>Child Day Care Services [624410]</OperationsDesc>
+         </BusinessInfo>
+      </InsuredOrPrincipalInfo>
+   </InsuredOrPrincipal>
+   <Policy id="7f91ff6738d84a7ab450a322c44c59ef">
+      <ItemIdInfo>
+         <VersionStartDtTime>2019-08-14T17:48:28</VersionStartDtTime>
+      </ItemIdInfo>
+      <CompanyProductCd>SBOP</CompanyProductCd>
+      <QuoteInfo>
+         <Description>Released Quote</Description>
+         <QuoteInfoExt>
+            <QuestionAnswer>
+               <Explanation>External</Explanation>
+               <QuestionText>QuoteActionUserClassification</QuestionText>
+            </QuestionAnswer>
+         </QuoteInfoExt>
+      </QuoteInfo>
+      <PolicyNumber>P404446</PolicyNumber>
+      <ContractTerm>
+         <EffectiveDt>2019-08-29</EffectiveDt>
+         <ExpirationDt>2020-08-29</ExpirationDt>
+      </ContractTerm>
+      <Binder>
+         <NewBinderInd>false</NewBinderInd>
+      </Binder>
+      <QuestionAnswer>
+         <Explanation>Certified</Explanation>
+         <QuestionText>OperationType</QuestionText>
+         <QuestionTextReference>SBOPPolicyQuestions</QuestionTextReference>
+      </QuestionAnswer>
+      <QuestionAnswer>
+         <Explanation>CommercialBuilding</Explanation>
+         <QuestionText>ChildCarePremises</QuestionText>
+         <QuestionTextReference>SBOPPolicyQuestions</QuestionTextReference>
+      </QuestionAnswer>
+      <QuestionAnswer>
+         <QuestionText>CustomerCare</QuestionText>
+         <YesNoCd>NO</YesNoCd>
+      </QuestionAnswer>
+      <QuestionAnswer>
+         <QuestionText>MailPolicyToInsured</QuestionText>
+         <YesNoCd>NO</YesNoCd>
+      </QuestionAnswer>
+      <PaymentOption>
+         <PaymentPlanCd/>
+         <DayMonthDue/>
+      </PaymentOption>
+      <PolicyExt>
+         <BaseStateProvCd xmlns="">IL</BaseStateProvCd>
+         <Clearance xmlns="">
+            <ClearedDateTimeStamp>2019-08-14T11:55:21.672</ClearedDateTimeStamp>
+         </Clearance>
+         <Division xmlns="">NSI</Division>
+      </PolicyExt>
+      <PolicySupplement>
+         <PolicyProgramName>Childcare</PolicyProgramName>
+      </PolicySupplement>
+      <ControllingStateProvCd>IL</ControllingStateProvCd>
+      <Coverage>
+         <CoverageCd>TRIA</CoverageCd>
+         <CoverageDesc>Terrorism</CoverageDesc>
+      </Coverage>
+      <AdditionalInterest id="8375e907f4823c2aa827e56ab15dadb2">
+         <Link rel="Self" title="Coverage" href="660301565805774370"/>
+         <Link rel="Self" title="Location" href="660301565805090859"/>
+         <GeneralPartyInfo>
+            <NameInfo>
+               <CommlName>
+                  <CommercialName>Additional Insured_Co-Owner Insured_Premises_Dennis_Testing_DXP_Liferay_Take2</CommercialName>
+               </CommlName>
+            </NameInfo>
+         </GeneralPartyInfo>
+         <AdditionalInterestInfo>
+            <NatureInterestCd>BP0410</NatureInterestCd>
+            <AdditionalInterestInfoExt>
+               <BlanketInd>false</BlanketInd>
+               <ProductDesignedDesc>Select GL class code for Additional Insured</ProductDesignedDesc>
+            </AdditionalInterestInfoExt>
+         </AdditionalInterestInfo>
+      </AdditionalInterest>
+   </Policy>
+   <Location id="660301565805090859">
+      <Addr id="f21dcfdc6e954b7daed9e569571a2a36">
+         <DetailAddr>
+            <PreDirectionCd>N</PreDirectionCd>
+            <StreetName>Berwick</StreetName>
+            <StreetTypeCd>Blvd</StreetTypeCd>
+            <StreetNumber>1605</StreetNumber>
+         </DetailAddr>
+         <City>Waukegan</City>
+         <StateProvCd>IL</StateProvCd>
+         <PostalCode>60085-1520</PostalCode>
+         <County>Lake County</County>
+         <Country>United States of America</Country>
+         <Latitude>42.383017</Latitude>
+         <Longitude>-87.859576</Longitude>
+         <AddrExt>
+            <Clearance xmlns="">
+               <LastVerified>2019-08-14</LastVerified>
+            </Clearance>
+         </AddrExt>
+         <LegalAddr>
+            <LegalAddrCd>Block</LegalAddrCd>
+            <Description>170978618041016</Description>
+         </LegalAddr>
+      </Addr>
+      <SubLocation id="660301565805343339">
+         <SubLocationDesc>Building #1</SubLocationDesc>
+      </SubLocation>
+      <LocationExt>
+         <Clearance xmlns="">
+            <ClearedDateTimeStamp>2019-08-14T11:55:21.672</ClearedDateTimeStamp>
+            <LastVerified>2019-08-14</LastVerified>
+         </Clearance>
+      </LocationExt>
+   </Location>
+   <LocationUWInfo xmlns:wbmiAuto="http://www.wbmi.org/CommercialLines/AcordMapping/Auto"
+                   LocationRef="660301565805090859"
+                   id="660301565805343339"
+                   SubLocationRef="660301565805343339">
+      <Construction>
+         <ConstructionCd>MFR</ConstructionCd>
+      </Construction>
+      <BldgExposures>
+         <Description>Building #1</Description>
+      </BldgExposures>
+      <TerritoryCd>509</TerritoryCd>
+      <BldgProtection>
+         <ProtectionDeviceSprinklerCd>NO</ProtectionDeviceSprinklerCd>
+         <ProtectionClassGradeCd>3</ProtectionClassGradeCd>
+      </BldgProtection>
+      <QuestionAnswer>
+         <Num>65</Num>
+         <QuestionText>MaximumNumberOfChildren</QuestionText>
+      </QuestionAnswer>
+      <BldgOccupancy id="1639660301565805090859">
+         <VacantUnoccupiedCd>OCC</VacantUnoccupiedCd>
+         <AreaOccupied/>
+         <BldgOccupancyExt>
+            <CodeDesc/>
+            <CodeDesc/>
+            <CodeDesc/>
+            <QuestionAnswer>
+               <QuestionText>COBLiabilityFactor</QuestionText>
+            </QuestionAnswer>
+            <QuestionAnswer>
+               <QuestionText>COBPropertyFactor</QuestionText>
+            </QuestionAnswer>
+            <QuestionAnswer>
+               <QuestionText>COBAllOtherFactor</QuestionText>
+            </QuestionAnswer>
+            <QuestionAnswer>
+               <QuestionText>EquipmentBreakdownGroup</QuestionText>
+            </QuestionAnswer>
+            <QuestionAnswer>
+               <Explanation>1639</Explanation>
+               <QuestionText>ClassDescriptionVersion</QuestionText>
+            </QuestionAnswer>
+            <QuestionAnswer>
+               <QuestionText>BusinessSegment</QuestionText>
+            </QuestionAnswer>
+            <QuestionAnswer>
+               <QuestionText>PropRateNo</QuestionText>
+            </QuestionAnswer>
+            <QuestionAnswer>
+               <QuestionText>LiabExpBase</QuestionText>
+            </QuestionAnswer>
+            <QuestionAnswer>
+               <QuestionText>LiabClassGroup</QuestionText>
+            </QuestionAnswer>
+            <QuestionAnswer>
+               <QuestionText>ClassCode</QuestionText>
+            </QuestionAnswer>
+            <QuestionAnswer>
+               <QuestionText>EQ</QuestionText>
+            </QuestionAnswer>
+            <QuestionAnswer>
+               <QuestionText>EQSL</QuestionText>
+            </QuestionAnswer>
+            <QuestionAnswer>
+               <QuestionText>NumberOfPools</QuestionText>
+            </QuestionAnswer>
+         </BldgOccupancyExt>
+      </BldgOccupancy>
+      <BldgOccupancy id="1640660301565805090859">
+         <VacantUnoccupiedCd>OCC</VacantUnoccupiedCd>
+         <AreaOccupied/>
+         <BldgOccupancyExt>
+            <CodeDesc/>
+            <CodeDesc/>
+            <CodeDesc/>
+            <QuestionAnswer>
+               <QuestionText>COBLiabilityFactor</QuestionText>
+            </QuestionAnswer>
+            <QuestionAnswer>
+               <QuestionText>COBPropertyFactor</QuestionText>
+            </QuestionAnswer>
+            <QuestionAnswer>
+               <QuestionText>COBAllOtherFactor</QuestionText>
+            </QuestionAnswer>
+            <QuestionAnswer>
+               <QuestionText>EquipmentBreakdownGroup</QuestionText>
+            </QuestionAnswer>
+            <QuestionAnswer>
+               <Explanation>1640</Explanation>
+               <QuestionText>ClassDescriptionVersion</QuestionText>
+            </QuestionAnswer>
+            <QuestionAnswer>
+               <QuestionText>BusinessSegment</QuestionText>
+            </QuestionAnswer>
+            <QuestionAnswer>
+               <QuestionText>PropRateNo</QuestionText>
+            </QuestionAnswer>
+            <QuestionAnswer>
+               <QuestionText>LiabExpBase</QuestionText>
+            </QuestionAnswer>
+            <QuestionAnswer>
+               <QuestionText>LiabClassGroup</QuestionText>
+            </QuestionAnswer>
+            <QuestionAnswer>
+               <QuestionText>ClassCode</QuestionText>
+            </QuestionAnswer>
+            <QuestionAnswer>
+               <QuestionText>EQ</QuestionText>
+            </QuestionAnswer>
+            <QuestionAnswer>
+               <QuestionText>EQSL</QuestionText>
+            </QuestionAnswer>
+            <QuestionAnswer>
+               <QuestionText>NumberOfPools</QuestionText>
+            </QuestionAnswer>
+         </BldgOccupancyExt>
+      </BldgOccupancy>
+      <BldgOccupancy id="1650660301565805090859">
+         <VacantUnoccupiedCd>OCC</VacantUnoccupiedCd>
+         <AreaOccupied/>
+         <BldgOccupancyExt>
+            <CodeDesc/>
+            <CodeDesc/>
+            <CodeDesc/>
+            <QuestionAnswer>
+               <QuestionText>COBLiabilityFactor</QuestionText>
+            </QuestionAnswer>
+            <QuestionAnswer>
+               <QuestionText>COBPropertyFactor</QuestionText>
+            </QuestionAnswer>
+            <QuestionAnswer>
+               <QuestionText>COBAllOtherFactor</QuestionText>
+            </QuestionAnswer>
+            <QuestionAnswer>
+               <QuestionText>EquipmentBreakdownGroup</QuestionText>
+            </QuestionAnswer>
+            <QuestionAnswer>
+               <Explanation>1650</Explanation>
+               <QuestionText>ClassDescriptionVersion</QuestionText>
+            </QuestionAnswer>
+            <QuestionAnswer>
+               <QuestionText>BusinessSegment</QuestionText>
+            </QuestionAnswer>
+            <QuestionAnswer>
+               <QuestionText>PropRateNo</QuestionText>
+            </QuestionAnswer>
+            <QuestionAnswer>
+               <QuestionText>LiabExpBase</QuestionText>
+            </QuestionAnswer>
+            <QuestionAnswer>
+               <QuestionText>LiabClassGroup</QuestionText>
+            </QuestionAnswer>
+            <QuestionAnswer>
+               <QuestionText>ClassCode</QuestionText>
+            </QuestionAnswer>
+            <QuestionAnswer>
+               <QuestionText>EQ</QuestionText>
+            </QuestionAnswer>
+            <QuestionAnswer>
+               <QuestionText>EQSL</QuestionText>
+            </QuestionAnswer>
+            <QuestionAnswer>
+               <QuestionText>NumberOfPools</QuestionText>
+            </QuestionAnswer>
+         </BldgOccupancyExt>
+      </BldgOccupancy>
+      <BldgOccupancy id="1651660301565805090859">
+         <VacantUnoccupiedCd>OCC</VacantUnoccupiedCd>
+         <AreaOccupied/>
+         <BldgOccupancyExt>
+            <CodeDesc/>
+            <CodeDesc/>
+            <CodeDesc/>
+            <QuestionAnswer>
+               <QuestionText>COBLiabilityFactor</QuestionText>
+            </QuestionAnswer>
+            <QuestionAnswer>
+               <QuestionText>COBPropertyFactor</QuestionText>
+            </QuestionAnswer>
+            <QuestionAnswer>
+               <QuestionText>COBAllOtherFactor</QuestionText>
+            </QuestionAnswer>
+            <QuestionAnswer>
+               <QuestionText>EquipmentBreakdownGroup</QuestionText>
+            </QuestionAnswer>
+            <QuestionAnswer>
+               <Explanation>1651</Explanation>
+               <QuestionText>ClassDescriptionVersion</QuestionText>
+            </QuestionAnswer>
+            <QuestionAnswer>
+               <QuestionText>BusinessSegment</QuestionText>
+            </QuestionAnswer>
+            <QuestionAnswer>
+               <QuestionText>PropRateNo</QuestionText>
+            </QuestionAnswer>
+            <QuestionAnswer>
+               <QuestionText>LiabExpBase</QuestionText>
+            </QuestionAnswer>
+            <QuestionAnswer>
+               <QuestionText>LiabClassGroup</QuestionText>
+            </QuestionAnswer>
+            <QuestionAnswer>
+               <QuestionText>ClassCode</QuestionText>
+            </QuestionAnswer>
+            <QuestionAnswer>
+               <QuestionText>EQ</QuestionText>
+            </QuestionAnswer>
+            <QuestionAnswer>
+               <QuestionText>EQSL</QuestionText>
+            </QuestionAnswer>
+            <QuestionAnswer>
+               <QuestionText>NumberOfPools</QuestionText>
+            </QuestionAnswer>
+         </BldgOccupancyExt>
+      </BldgOccupancy>
+      <QuestionAnswer>
+         <Num>8</Num>
+         <QuestionText>HoursOpen</QuestionText>
+      </QuestionAnswer>
+      <QuestionAnswer>
+         <YesNoCd>YES</YesNoCd>
+         <QuestionText>OnlyBeforeAndAfterSchoolCare</QuestionText>
+      </QuestionAnswer>
+      <QuestionAnswer>
+         <Num>1254</Num>
+         <QuestionText>TotalSquareFeetLeasedToOthers</QuestionText>
+      </QuestionAnswer>
+      <QuestionAnswer>
+         <Num>2</Num>
+         <QuestionText>TotalNumberApartments</QuestionText>
+      </QuestionAnswer>
+      <QuestionAnswer>
+         <YesNoCd>YES</YesNoCd>
+         <QuestionText>OwnAnyBuildings</QuestionText>
+      </QuestionAnswer>
+      <QuestionAnswer>
+         <YesNoCd>YES</YesNoCd>
+         <QuestionText>LeaseAnyPartOfBuildingToOthers</QuestionText>
+      </QuestionAnswer>
+      <QuestionAnswer>
+         <Num>0</Num>
+         <QuestionText>DogCatCoverage</QuestionText>
+      </QuestionAnswer>
+      <QuestionAnswer>
+         <Explanation>140</Explanation>
+         <QuestionText>AutoTerritory</QuestionText>
+      </QuestionAnswer>
+      <QuestionAnswer>
+         <YesNoCd>NO</YesNoCd>
+         <QuestionOccurrenceInfo>
+            <Explanation>AUTOB</Explanation>
+         </QuestionOccurrenceInfo>
+         <QuestionText>WithinChicagoCityLimits</QuestionText>
+      </QuestionAnswer>
+      <LocationUWInfoExt>
+         <OccupationClassInfo id="f9b363ce4f124bb38bb44253d7952cf7"/>
+      </LocationUWInfoExt>
+   </LocationUWInfo>
+   <CommlPropertyLineBusiness id="018eeae50a174234972b69e0d56f6c59">
+      <LOBCd>BOPR</LOBCd>
+      <PropertyInfo>
+         <CommlPropertyInfo id="3d8fb332ad833ff8994b7eefae3c1645"
+                            LocationRef="660301565805090859"
+                            SubLocationRef="660301565805343339">
+            <SubjectInsuranceCd>BLDG</SubjectInsuranceCd>
+            <Coverage id="e49a82e59b34439d8be27d25790e0bb0">
+               <CoverageTypeCd>Coverage</CoverageTypeCd>
+               <CoverageDesc>EarthquakeRisk</CoverageDesc>
+               <Limit id="fe4aaf5658d34548bafdb780d8c936ed">
+                  <FormatInteger>67677</FormatInteger>
+                  <LimitExt>
+                     <CodeDesc>Standard</CodeDesc>
+                  </LimitExt>
+               </Limit>
+               <Deductible id="ba0f0bd00578487e9840eca74044ff50">
+                  <FormatInteger>10</FormatInteger>
+                  <DeductibleExt>
+                     <CodeDesc>Standard</CodeDesc>
+                  </DeductibleExt>
+               </Deductible>
+               <CoverageSupplement/>
+               <CoverageExt/>
+            </Coverage>
+            <Coverage id="56ee9ee6ace245f1872056bfc93e3adc">
+               <CoverageTypeCd>Coverage</CoverageTypeCd>
+               <CoverageDesc>InflationGuard</CoverageDesc>
+               <Limit id="3beebf02cb844787babd09d24b8d5e49">
+                  <FormatInteger>4</FormatInteger>
+                  <LimitExt>
+                     <CodeDesc>AmountOfIIncrease</CodeDesc>
+                  </LimitExt>
+               </Limit>
+               <CoverageSupplement/>
+               <CoverageExt/>
+            </Coverage>
+            <Coverage id="c75a6fb20f2b4e49977767e19ccb7f92">
+               <CoverageTypeCd>Coverage</CoverageTypeCd>
+               <CoverageDesc>BG1</CoverageDesc>
+               <Limit id="352dacaffa85461892951ad644675b4b">
+                  <FormatInteger>67677</FormatInteger>
+                  <LimitExt>
+                     <CodeDesc>Standard</CodeDesc>
+                  </LimitExt>
+               </Limit>
+               <Deductible id="6efa04bc50c34d779f231c6a03332b96">
+                  <FormatInteger>1000</FormatInteger>
+                  <DeductibleExt>
+                     <CodeDesc>Deductible</CodeDesc>
+                  </DeductibleExt>
+               </Deductible>
+               <CoverageSupplement/>
+               <CoverageExt/>
+            </Coverage>
+            <Coverage id="07dcf4855e7f412ca6fdb8757a6e2721">
+               <CoverageTypeCd>Coverage</CoverageTypeCd>
+               <CoverageDesc>BG2</CoverageDesc>
+               <Limit id="69b2541cf9954b9cbaab7665a9b68215">
+                  <FormatInteger>67677</FormatInteger>
+                  <LimitExt>
+                     <CodeDesc>Standard</CodeDesc>
+                  </LimitExt>
+               </Limit>
+               <Deductible id="c3d64381ba5440e89838e5522e910203">
+                  <FormatInteger>1000</FormatInteger>
+                  <DeductibleExt>
+                     <CodeDesc>Deductible</CodeDesc>
+                  </DeductibleExt>
+               </Deductible>
+               <ExposureInfo>
+                  <QuestionAnswer id="6cd56379fffb43e7ad1d44a7fe0c24e1">
+                     <Explanation>Other</Explanation>
+                     <QuestionText>Masonry</QuestionText>
+                  </QuestionAnswer>
+                  <QuestionAnswer id="27e3d605c3d247d397a9564d374d6490">
+                     <Explanation>Other</Explanation>
+                     <QuestionText>Steel</QuestionText>
+                  </QuestionAnswer>
+                  <QuestionAnswer id="1715da764b8441659ea1c67234ca1948">
+                     <Explanation>Low</Explanation>
+                     <QuestionText>Rise</QuestionText>
+                  </QuestionAnswer>
+               </ExposureInfo>
+               <CoverageExt/>
+            </Coverage>
+            <Coverage id="9fdf75a45cfa414ab164990eea30bcab">
+               <CoverageTypeCd>Coverage</CoverageTypeCd>
+               <CoverageDesc>OtherPerils</CoverageDesc>
+               <Limit id="cedc960c370c40ba8e2995e135d27d7a">
+                  <FormatInteger>67677</FormatInteger>
+                  <LimitExt>
+                     <CodeDesc>Standard</CodeDesc>
+                  </LimitExt>
+               </Limit>
+               <Deductible id="1ee41e4baa764e349a812f1608c9d21e">
+                  <FormatInteger>1000</FormatInteger>
+                  <DeductibleExt>
+                     <CodeDesc>Deductible</CodeDesc>
+                  </DeductibleExt>
+               </Deductible>
+               <Deductible id="7f20f4b5270e4338ad232ea1409df80e">
+                  <FormatInteger>0</FormatInteger>
+                  <DeductibleExt>
+                     <CodeDesc>TheftDeductible</CodeDesc>
+                  </DeductibleExt>
+               </Deductible>
+               <CoverageSupplement/>
+               <CoverageExt/>
+            </Coverage>
+            <Coverage id="b6019337d430424db2160033b3f9cd34">
+               <CoverageTypeCd>Coverage</CoverageTypeCd>
+               <CoverageDesc>TerrorismRisk</CoverageDesc>
+               <Limit id="edf75329f80f4a009656adab8bc1888a">
+                  <FormatInteger>67677</FormatInteger>
+                  <LimitExt>
+                     <CodeDesc>Standard</CodeDesc>
+                  </LimitExt>
+               </Limit>
+               <Deductible id="c8279a1299334aff884d9edd594d0a44">
+                  <FormatInteger>1000</FormatInteger>
+                  <DeductibleExt>
+                     <CodeDesc>Deductible</CodeDesc>
+                  </DeductibleExt>
+               </Deductible>
+               <Deductible id="d784b6324b824025a5c4dee4185af2db">
+                  <FormatInteger>0</FormatInteger>
+                  <DeductibleExt>
+                     <CodeDesc>TheftDeductible</CodeDesc>
+                  </DeductibleExt>
+               </Deductible>
+               <ExposureInfo>
+                  <QuestionAnswer id="9a9b13815df94b83b637e632bc466ce1">
+                     <QuestionText>TerrorismProRataFactor</QuestionText>
+                  </QuestionAnswer>
+               </ExposureInfo>
+               <CoverageExt/>
+            </Coverage>
+            <Coverage id="ec3287e54ccb4558b033e4f33da092b9">
+               <CoverageDesc>Risk</CoverageDesc>
+               <Limit id="cba12c4941c0410eab8511bc578de47c">
+                  <FormatInteger>67677</FormatInteger>
+                  <LimitAppliesToCd>Other</LimitAppliesToCd>
+               </Limit>
+            </Coverage>
+            <Coverage id="6a2e658884e34afead0d27dc2945a287">
+               <CoverageCd>BLDG</CoverageCd>
+               <CoverageDesc>Risk</CoverageDesc>
+            </Coverage>
+            <Coverage id="3a9cede1d58546a5a2af2ba687324997">
+               <CoverageCd>MSECP</CoverageCd>
+               <CoverageTypeCd>Coverage</CoverageTypeCd>
+               <Limit id="a3e3b715b4b14dac9667db1afeac07a3">
+                  <FormatInteger>1234</FormatInteger>
+                  <LimitAppliesToCd>EXCES</LimitAppliesToCd>
+               </Limit>
+               <ExposureInfo>
+                  <PropertyClassCd>MNSEC</PropertyClassCd>
+               </ExposureInfo>
+            </Coverage>
+            <Coverage id="9cddfeb311a7426989f7032ff0f90701">
+               <CoverageCd>MSOFF</CoverageCd>
+               <CoverageTypeCd>Coverage</CoverageTypeCd>
+               <Limit id="fbf0cb1a030546f09da5d4576e1e8102">
+                  <FormatInteger>2321</FormatInteger>
+                  <LimitAppliesToCd>EXCES</LimitAppliesToCd>
+               </Limit>
+               <ExposureInfo>
+                  <PropertyClassCd>MNSEC</PropertyClassCd>
+               </ExposureInfo>
+            </Coverage>
+            <Coverage id="dd3241a3f48144789b97928c36229800">
+               <CoverageCd>OUTSI</CoverageCd>
+               <CoverageTypeCd>Coverage</CoverageTypeCd>
+               <Limit id="6df67574c70d4537863eec8cb3872d8e">
+                  <FormatInteger>4343</FormatInteger>
+                  <LimitAppliesToCd>EXCES</LimitAppliesToCd>
+               </Limit>
+               <ExposureInfo>
+                  <PropertyClassCd>OUTSI</PropertyClassCd>
+               </ExposureInfo>
+            </Coverage>
+            <Coverage id="c4627f4ba2354f16b57930888e003daa">
+               <CoverageCd>EDP</CoverageCd>
+               <CoverageTypeCd>Coverage</CoverageTypeCd>
+               <Limit id="802a559861bd4f25bc5f68a0480ce203">
+                  <FormatInteger>2323</FormatInteger>
+                  <LimitAppliesToCd>EXCES</LimitAppliesToCd>
+               </Limit>
+               <ExposureInfo>
+                  <PropertyClassCd>PC</PropertyClassCd>
+               </ExposureInfo>
+            </Coverage>
+            <Coverage id="fec3ea1c6c19470d9621f481115855bf">
+               <CoverageCd>SPOIL</CoverageCd>
+               <CoverageTypeCd>Coverage</CoverageTypeCd>
+               <Limit id="04a4f9b1738e478b8a73e715e271ea1a">
+                  <FormatInteger>10000</FormatInteger>
+                  <LimitAppliesToCd>Prop</LimitAppliesToCd>
+               </Limit>
+               <ExposureInfo>
+                  <PropertyClassCd>SPOIL</PropertyClassCd>
+               </ExposureInfo>
+            </Coverage>
+            <Coverage id="2ce7193eb77b40c18db79c8e40827af3">
+               <CoverageTypeCd>Coverage</CoverageTypeCd>
+               <CoverageDesc>BusinessIncomeFoodContamination</CoverageDesc>
+               <Limit id="f6d516b2dd5c45078bcafab95ba3d4d5">
+                  <FormatInteger>10000</FormatInteger>
+                  <LimitExt>
+                     <CodeDesc>FoodContamination</CodeDesc>
+                  </LimitExt>
+               </Limit>
+               <Limit id="4b5f122dedfe4473860ccadabf8742b1">
+                  <FormatInteger>3000</FormatInteger>
+                  <LimitExt>
+                     <CodeDesc>AdditionalAdvertisingExpense</CodeDesc>
+                  </LimitExt>
+               </Limit>
+               <CoverageSupplement>
+                  <QuestionAnswer id="3256dbccb88347208a78919c0460fd8d">
+                     <Explanation>[1052] Childcare</Explanation>
+                     <QuestionText>DescriptionOfBusiness</QuestionText>
+                     <QuestionTextReference>CoverageForm</QuestionTextReference>
+                  </QuestionAnswer>
+               </CoverageSupplement>
+               <CoverageExt/>
+            </Coverage>
+            <Coverage id="90fefd40e69848e9b72c1faf0a11be7b">
+               <CoverageTypeCd>Coverage</CoverageTypeCd>
+               <CoverageDesc>MineSubsidence</CoverageDesc>
+               <Limit id="ae98eac5827e41a0b68db680767553d5">
+                  <FormatInteger>67677</FormatInteger>
+                  <LimitExt>
+                     <CodeDesc>Standard</CodeDesc>
+                  </LimitExt>
+               </Limit>
+               <Limit id="0eec894d632c4ff5984a13c656c44858">
+                  <FormatInteger>15000</FormatInteger>
+                  <LimitExt>
+                     <CodeDesc>AdditionalLivingExpenses</CodeDesc>
+                  </LimitExt>
+               </Limit>
+               <ExposureInfo>
+                  <QuestionAnswer id="c8ff16da55de45b7bc9b6d113bf12efd">
+                     <Explanation>NonDwelling</Explanation>
+                     <QuestionText>IsDwelling</QuestionText>
+                  </QuestionAnswer>
+                  <QuestionAnswer id="7fb648a06bde48cd961cc2e655c5e846">
+                     <QuestionText>OKPremium</QuestionText>
+                  </QuestionAnswer>
+                  <QuestionAnswer id="43d9bc1d57814357b90fd6f6975e1ab8">
+                     <QuestionText>APremium</QuestionText>
+                  </QuestionAnswer>
+               </ExposureInfo>
+               <CoverageExt/>
+            </Coverage>
+            <ValuationCd>RC</ValuationCd>
+            <CommlPropertyInfoExt>
+               <OccupationClassInfo id="f9b363ce4f124bb38bb44253d7952cf7"/>
+            </CommlPropertyInfoExt>
+         </CommlPropertyInfo>
+         <CommlPropertyInfo id="ad671a51e66c3d7d8a03177ecae9d0f8"
+                            LocationRef="660301565805090859"
+                            SubLocationRef="660301565805343339">
+            <SubjectInsuranceCd>BPP</SubjectInsuranceCd>
+            <Coverage id="d66229d1ddfc49eead2ce5c15b44f7a9">
+               <CoverageTypeCd>Coverage</CoverageTypeCd>
+               <CoverageDesc>EarthquakeRisk</CoverageDesc>
+               <Limit id="31402c0f9c3546abbf864d424b94b5cf">
+                  <FormatInteger>56555</FormatInteger>
+                  <LimitExt>
+                     <CodeDesc>Standard</CodeDesc>
+                  </LimitExt>
+               </Limit>
+               <Deductible id="c5cc6bd446844ee987475de2a881fa64">
+                  <FormatInteger>10</FormatInteger>
+                  <DeductibleExt>
+                     <CodeDesc>Standard</CodeDesc>
+                  </DeductibleExt>
+               </Deductible>
+               <CoverageSupplement/>
+               <CoverageExt/>
+            </Coverage>
+            <Coverage id="056f6353e51f4ce0a34d9356b84ce45e">
+               <CoverageTypeCd>Coverage</CoverageTypeCd>
+               <CoverageDesc>InflationGuard</CoverageDesc>
+               <Limit id="5aa6f4f90b5a4396a22febb471ecc194">
+                  <FormatInteger>4</FormatInteger>
+                  <LimitExt>
+                     <CodeDesc>AmountOfIIncrease</CodeDesc>
+                  </LimitExt>
+               </Limit>
+               <CoverageSupplement/>
+               <CoverageExt/>
+            </Coverage>
+            <Coverage id="ab9da6f03e6b4a89bf15c18639463eee">
+               <CoverageTypeCd>Coverage</CoverageTypeCd>
+               <CoverageDesc>BG1</CoverageDesc>
+               <Limit id="76f0186c46e743c1bb64e99e8305f019">
+                  <FormatInteger>56555</FormatInteger>
+                  <LimitExt>
+                     <CodeDesc>Standard</CodeDesc>
+                  </LimitExt>
+               </Limit>
+               <Deductible id="5124ed4450ff494a8cc3d29bf43cf40c">
+                  <FormatInteger>1000</FormatInteger>
+                  <DeductibleExt>
+                     <CodeDesc>Deductible</CodeDesc>
+                  </DeductibleExt>
+               </Deductible>
+               <CoverageSupplement/>
+               <CoverageExt/>
+            </Coverage>
+            <Coverage id="ccd4112300b04f0c96089831d39ced53">
+               <CoverageTypeCd>Coverage</CoverageTypeCd>
+               <CoverageDesc>BG2</CoverageDesc>
+               <Limit id="094b43b75d6d42c89ac0c81993d4e36a">
+                  <FormatInteger>56555</FormatInteger>
+                  <LimitExt>
+                     <CodeDesc>Standard</CodeDesc>
+                  </LimitExt>
+               </Limit>
+               <Deductible id="33bb5af995d64b9cbb3e3edd667207f8">
+                  <FormatInteger>1000</FormatInteger>
+                  <DeductibleExt>
+                     <CodeDesc>Deductible</CodeDesc>
+                  </DeductibleExt>
+               </Deductible>
+               <ExposureInfo>
+                  <QuestionAnswer id="94508fb1e602445db5fbdbad09b2fc45">
+                     <Explanation>Other</Explanation>
+                     <QuestionText>Masonry</QuestionText>
+                  </QuestionAnswer>
+                  <QuestionAnswer id="a96c5802d43947e8ac65b1bdc67da17b">
+                     <Explanation>Other</Explanation>
+                     <QuestionText>Steel</QuestionText>
+                  </QuestionAnswer>
+                  <QuestionAnswer id="04bebfc91d7f47d981e6f5e157556446">
+                     <Explanation>Low</Explanation>
+                     <QuestionText>Rise</QuestionText>
+                  </QuestionAnswer>
+               </ExposureInfo>
+               <CoverageExt/>
+            </Coverage>
+            <Coverage id="1f75eaea77f74f9cbac9d64c2961a352">
+               <CoverageTypeCd>Coverage</CoverageTypeCd>
+               <CoverageDesc>OtherPerils</CoverageDesc>
+               <Limit id="329af11e8b2b4b31b0d5197bb1752582">
+                  <FormatInteger>56555</FormatInteger>
+                  <LimitExt>
+                     <CodeDesc>Standard</CodeDesc>
+                  </LimitExt>
+               </Limit>
+               <Deductible id="ebfeb411a533465fb6d90b38c4e480ea">
+                  <FormatInteger>1000</FormatInteger>
+                  <DeductibleExt>
+                     <CodeDesc>Deductible</CodeDesc>
+                  </DeductibleExt>
+               </Deductible>
+               <Deductible id="2636becad7af4019a2de002b4f85c3e2">
+                  <FormatInteger>0</FormatInteger>
+                  <DeductibleExt>
+                     <CodeDesc>TheftDeductible</CodeDesc>
+                  </DeductibleExt>
+               </Deductible>
+               <CoverageSupplement/>
+               <CoverageExt/>
+            </Coverage>
+            <Coverage id="a5c645f231d94fb6a9412939344ee5d2">
+               <CoverageTypeCd>Coverage</CoverageTypeCd>
+               <CoverageDesc>TerrorismRisk</CoverageDesc>
+               <Limit id="061a3819200145c49eeab002a1dbb990">
+                  <FormatInteger>56555</FormatInteger>
+                  <LimitExt>
+                     <CodeDesc>Standard</CodeDesc>
+                  </LimitExt>
+               </Limit>
+               <Deductible id="e950f59a83c14849b7232501ec78fa8a">
+                  <FormatInteger>1000</FormatInteger>
+                  <DeductibleExt>
+                     <CodeDesc>Deductible</CodeDesc>
+                  </DeductibleExt>
+               </Deductible>
+               <Deductible id="fd30df3dcef94e34bddd90053b89acaf">
+                  <FormatInteger>0</FormatInteger>
+                  <DeductibleExt>
+                     <CodeDesc>TheftDeductible</CodeDesc>
+                  </DeductibleExt>
+               </Deductible>
+               <ExposureInfo>
+                  <QuestionAnswer id="7f360ff325094119a9b58fb9d47de501">
+                     <QuestionText>TerrorismProRataFactor</QuestionText>
+                  </QuestionAnswer>
+               </ExposureInfo>
+               <CoverageExt/>
+            </Coverage>
+            <Coverage id="fe8cda22826c483684ad94045d0c1758">
+               <CoverageDesc>Risk</CoverageDesc>
+               <Limit id="ac616d6632a5493dbfcbe76d5302742b">
+                  <FormatInteger>56555</FormatInteger>
+                  <LimitAppliesToCd>Other</LimitAppliesToCd>
+               </Limit>
+            </Coverage>
+            <Coverage id="6fe0de7f156440d7bf6feac030f40727">
+               <CoverageCd>BLDG</CoverageCd>
+               <CoverageDesc>Risk</CoverageDesc>
+            </Coverage>
+            <Coverage id="a3e2596f365e4296bb61726a44c7f69f">
+               <CoverageCd>MSECP</CoverageCd>
+               <CoverageTypeCd>Coverage</CoverageTypeCd>
+               <Limit id="f1086d3bccad4b1d8557e2530884a46f">
+                  <FormatInteger>1234</FormatInteger>
+                  <LimitAppliesToCd>EXCES</LimitAppliesToCd>
+               </Limit>
+               <ExposureInfo>
+                  <PropertyClassCd>MNSEC</PropertyClassCd>
+               </ExposureInfo>
+            </Coverage>
+            <Coverage id="615ceea538cb4ce9bb3570f88bbbdb0c">
+               <CoverageCd>MSOFF</CoverageCd>
+               <CoverageTypeCd>Coverage</CoverageTypeCd>
+               <Limit id="e798701807014dd38f09edcb5eeaaafa">
+                  <FormatInteger>2321</FormatInteger>
+                  <LimitAppliesToCd>EXCES</LimitAppliesToCd>
+               </Limit>
+               <ExposureInfo>
+                  <PropertyClassCd>MNSEC</PropertyClassCd>
+               </ExposureInfo>
+            </Coverage>
+            <Coverage id="72b103db4aa141139506c3a0e428a2fb">
+               <CoverageCd>OUTSI</CoverageCd>
+               <CoverageTypeCd>Coverage</CoverageTypeCd>
+               <Limit id="71faf900d5824a50b2279884545bc68c">
+                  <FormatInteger>4343</FormatInteger>
+                  <LimitAppliesToCd>EXCES</LimitAppliesToCd>
+               </Limit>
+               <ExposureInfo>
+                  <PropertyClassCd>OUTSI</PropertyClassCd>
+               </ExposureInfo>
+            </Coverage>
+            <Coverage id="d49cfba8eb61449d85a24f045d985bba">
+               <CoverageCd>EDP</CoverageCd>
+               <CoverageTypeCd>Coverage</CoverageTypeCd>
+               <Limit id="ca202da60da347d299a3fa2534aec9b0">
+                  <FormatInteger>2323</FormatInteger>
+                  <LimitAppliesToCd>EXCES</LimitAppliesToCd>
+               </Limit>
+               <ExposureInfo>
+                  <PropertyClassCd>PC</PropertyClassCd>
+               </ExposureInfo>
+            </Coverage>
+            <Coverage id="c69e8fb4f80b4211961f9e0f32521142">
+               <CoverageCd>SPOIL</CoverageCd>
+               <CoverageTypeCd>Coverage</CoverageTypeCd>
+               <Limit id="5421aa52c2764410a06cca3747cad51a">
+                  <FormatInteger>10000</FormatInteger>
+                  <LimitAppliesToCd>Prop</LimitAppliesToCd>
+               </Limit>
+               <ExposureInfo>
+                  <PropertyClassCd>SPOIL</PropertyClassCd>
+               </ExposureInfo>
+            </Coverage>
+            <Coverage id="906bd639048d45309152d381556adff5">
+               <CoverageTypeCd>Coverage</CoverageTypeCd>
+               <CoverageDesc>BusinessIncomeFoodContamination</CoverageDesc>
+               <Limit id="1ca65fc7bb244996a6e0be909588cea9">
+                  <FormatInteger>10000</FormatInteger>
+                  <LimitExt>
+                     <CodeDesc>FoodContamination</CodeDesc>
+                  </LimitExt>
+               </Limit>
+               <Limit id="c922e57deac44ce5ae78f80be3ce2b83">
+                  <FormatInteger>3000</FormatInteger>
+                  <LimitExt>
+                     <CodeDesc>AdditionalAdvertisingExpense</CodeDesc>
+                  </LimitExt>
+               </Limit>
+               <CoverageSupplement>
+                  <QuestionAnswer id="2d88ce41e0484746852f48b5502eaf05">
+                     <Explanation>[1052] Childcare</Explanation>
+                     <QuestionText>DescriptionOfBusiness</QuestionText>
+                     <QuestionTextReference>CoverageForm</QuestionTextReference>
+                  </QuestionAnswer>
+               </CoverageSupplement>
+               <CoverageExt/>
+            </Coverage>
+            <ValuationCd>RC</ValuationCd>
+            <CommlPropertyInfoExt>
+               <OccupationClassInfo id="f9b363ce4f124bb38bb44253d7952cf7"/>
+            </CommlPropertyInfoExt>
+         </CommlPropertyInfo>
+         <CommlPropertyInfo id="d7557a4f553a3d71b70e0f74dcc047d0"
+                            LocationRef="660301565805090859"
+                            SubLocationRef="660301565805343339">
+            <SubjectInsuranceCd>TIB</SubjectInsuranceCd>
+            <Coverage id="09fa8a64147743c7a1df8670e3b6447f">
+               <CoverageTypeCd>Coverage</CoverageTypeCd>
+               <CoverageDesc>EarthquakeRisk</CoverageDesc>
+               <Limit id="a4be170b6fa4468fa34d9b3a57079d30">
+                  <FormatInteger>76767</FormatInteger>
+                  <LimitExt>
+                     <CodeDesc>Standard</CodeDesc>
+                  </LimitExt>
+               </Limit>
+               <Deductible id="3094f779f4be474eaea3f71237b64dfe">
+                  <FormatInteger>10</FormatInteger>
+                  <DeductibleExt>
+                     <CodeDesc>Standard</CodeDesc>
+                  </DeductibleExt>
+               </Deductible>
+               <CoverageSupplement/>
+               <CoverageExt/>
+            </Coverage>
+            <Coverage id="a5a7eaacfb87488eb066be80949cadd2">
+               <CoverageTypeCd>Coverage</CoverageTypeCd>
+               <CoverageDesc>InflationGuard</CoverageDesc>
+               <Limit id="623aef91a790472cbabdd627ad45936c">
+                  <FormatInteger>4</FormatInteger>
+                  <LimitExt>
+                     <CodeDesc>AmountOfIIncrease</CodeDesc>
+                  </LimitExt>
+               </Limit>
+               <CoverageSupplement/>
+               <CoverageExt/>
+            </Coverage>
+            <Coverage id="8ef4fee270374991ab51add77c044a45">
+               <CoverageTypeCd>Coverage</CoverageTypeCd>
+               <CoverageDesc>BG1</CoverageDesc>
+               <Limit id="6c2cbbbb525848c2a4e2cff94d23e7b9">
+                  <FormatInteger>76767</FormatInteger>
+                  <LimitExt>
+                     <CodeDesc>Standard</CodeDesc>
+                  </LimitExt>
+               </Limit>
+               <Deductible id="6fade8a21f38457094c6def1f26abaf0">
+                  <FormatInteger>1000</FormatInteger>
+                  <DeductibleExt>
+                     <CodeDesc>Deductible</CodeDesc>
+                  </DeductibleExt>
+               </Deductible>
+               <CoverageSupplement/>
+               <CoverageExt/>
+            </Coverage>
+            <Coverage id="d8b96bd3198b4e4487d36ebf8cf9fbba">
+               <CoverageTypeCd>Coverage</CoverageTypeCd>
+               <CoverageDesc>BG2</CoverageDesc>
+               <Limit id="4f2e0ec0806a43179c7ed058ea97b9ed">
+                  <FormatInteger>76767</FormatInteger>
+                  <LimitExt>
+                     <CodeDesc>Standard</CodeDesc>
+                  </LimitExt>
+               </Limit>
+               <Deductible id="fa40c988d4c64bf1a63af6ce07faf641">
+                  <FormatInteger>1000</FormatInteger>
+                  <DeductibleExt>
+                     <CodeDesc>Deductible</CodeDesc>
+                  </DeductibleExt>
+               </Deductible>
+               <ExposureInfo>
+                  <QuestionAnswer id="3e7d0fd5b7c8432883497d3e26a42cad">
+                     <Explanation>Other</Explanation>
+                     <QuestionText>Masonry</QuestionText>
+                  </QuestionAnswer>
+                  <QuestionAnswer id="727b5dd8a0cf4f1494a23d5d18d249f0">
+                     <Explanation>Other</Explanation>
+                     <QuestionText>Steel</QuestionText>
+                  </QuestionAnswer>
+                  <QuestionAnswer id="83c8f8a58ca84af9b0cc006618804c87">
+                     <Explanation>Low</Explanation>
+                     <QuestionText>Rise</QuestionText>
+                  </QuestionAnswer>
+               </ExposureInfo>
+               <CoverageExt/>
+            </Coverage>
+            <Coverage id="972c2214c82c42a5a9c721d7a481ea6b">
+               <CoverageTypeCd>Coverage</CoverageTypeCd>
+               <CoverageDesc>OtherPerils</CoverageDesc>
+               <Limit id="613ce9c922814c1a86191892937b23e0">
+                  <FormatInteger>76767</FormatInteger>
+                  <LimitExt>
+                     <CodeDesc>Standard</CodeDesc>
+                  </LimitExt>
+               </Limit>
+               <Deductible id="470b7a25c07b4289ad22bea183c0007a">
+                  <FormatInteger>1000</FormatInteger>
+                  <DeductibleExt>
+                     <CodeDesc>Deductible</CodeDesc>
+                  </DeductibleExt>
+               </Deductible>
+               <Deductible id="b0d8e805edbf4be2aab787d1759ade32">
+                  <FormatInteger>0</FormatInteger>
+                  <DeductibleExt>
+                     <CodeDesc>TheftDeductible</CodeDesc>
+                  </DeductibleExt>
+               </Deductible>
+               <CoverageSupplement/>
+               <CoverageExt/>
+            </Coverage>
+            <Coverage id="b1e8edca9ba74d058168dba7d002434a">
+               <CoverageTypeCd>Coverage</CoverageTypeCd>
+               <CoverageDesc>TerrorismRisk</CoverageDesc>
+               <Limit id="f57693d21cd64b9d9acfe493f72d7669">
+                  <FormatInteger>76767</FormatInteger>
+                  <LimitExt>
+                     <CodeDesc>Standard</CodeDesc>
+                  </LimitExt>
+               </Limit>
+               <Deductible id="44cf615f2c3a447f830e69ebb811330b">
+                  <FormatInteger>1000</FormatInteger>
+                  <DeductibleExt>
+                     <CodeDesc>Deductible</CodeDesc>
+                  </DeductibleExt>
+               </Deductible>
+               <Deductible id="8186cc540b45442d90b181d546902ce4">
+                  <FormatInteger>0</FormatInteger>
+                  <DeductibleExt>
+                     <CodeDesc>TheftDeductible</CodeDesc>
+                  </DeductibleExt>
+               </Deductible>
+               <ExposureInfo>
+                  <QuestionAnswer id="3cc5aaec26914455a4897293e7ab4799">
+                     <QuestionText>TerrorismProRataFactor</QuestionText>
+                  </QuestionAnswer>
+               </ExposureInfo>
+               <CoverageExt/>
+            </Coverage>
+            <Coverage id="f0199c5e8d0745b2a23d1147935d209a">
+               <CoverageDesc>Risk</CoverageDesc>
+               <Limit id="1d20068e128c477eb35b4f33e35a105f">
+                  <FormatInteger>76767</FormatInteger>
+                  <LimitAppliesToCd>Other</LimitAppliesToCd>
+               </Limit>
+            </Coverage>
+            <Coverage id="bb734254152b413096dd2459c322b676">
+               <CoverageCd>BLDG</CoverageCd>
+               <CoverageDesc>Risk</CoverageDesc>
+            </Coverage>
+            <Coverage id="4a3b07b2d8674d6e8c6edb6e4f30ac60">
+               <CoverageCd>MSECP</CoverageCd>
+               <CoverageTypeCd>Coverage</CoverageTypeCd>
+               <Limit id="d7ae4557f3cc4e788958b45f28116bd9">
+                  <FormatInteger>1234</FormatInteger>
+                  <LimitAppliesToCd>EXCES</LimitAppliesToCd>
+               </Limit>
+               <ExposureInfo>
+                  <PropertyClassCd>MNSEC</PropertyClassCd>
+               </ExposureInfo>
+            </Coverage>
+            <Coverage id="899984ef311f4a50852cffeec5ded803">
+               <CoverageCd>MSOFF</CoverageCd>
+               <CoverageTypeCd>Coverage</CoverageTypeCd>
+               <Limit id="36fc3e370ed144ae939bbcf16ecbd60d">
+                  <FormatInteger>2321</FormatInteger>
+                  <LimitAppliesToCd>EXCES</LimitAppliesToCd>
+               </Limit>
+               <ExposureInfo>
+                  <PropertyClassCd>MNSEC</PropertyClassCd>
+               </ExposureInfo>
+            </Coverage>
+            <Coverage id="debb6befaa8742e9b93920288c71ec08">
+               <CoverageCd>OUTSI</CoverageCd>
+               <CoverageTypeCd>Coverage</CoverageTypeCd>
+               <Limit id="839737ca5890487c895f3482f18a7628">
+                  <FormatInteger>4343</FormatInteger>
+                  <LimitAppliesToCd>EXCES</LimitAppliesToCd>
+               </Limit>
+               <ExposureInfo>
+                  <PropertyClassCd>OUTSI</PropertyClassCd>
+               </ExposureInfo>
+            </Coverage>
+            <Coverage id="dd9415dc70a44c4e8a5c76bfdd3f9230">
+               <CoverageCd>EDP</CoverageCd>
+               <CoverageTypeCd>Coverage</CoverageTypeCd>
+               <Limit id="0e133472cbf64e4fb1740aec2782d9ba">
+                  <FormatInteger>2323</FormatInteger>
+                  <LimitAppliesToCd>EXCES</LimitAppliesToCd>
+               </Limit>
+               <ExposureInfo>
+                  <PropertyClassCd>PC</PropertyClassCd>
+               </ExposureInfo>
+            </Coverage>
+            <Coverage id="9b06db1cc2b44edb9f0e073311f7d6f6">
+               <CoverageCd>SPOIL</CoverageCd>
+               <CoverageTypeCd>Coverage</CoverageTypeCd>
+               <Limit id="99f82a246eff4618b554a96d7e3b971d">
+                  <FormatInteger>10000</FormatInteger>
+                  <LimitAppliesToCd>Prop</LimitAppliesToCd>
+               </Limit>
+               <ExposureInfo>
+                  <PropertyClassCd>SPOIL</PropertyClassCd>
+               </ExposureInfo>
+            </Coverage>
+            <Coverage id="40e5064c822b4a8cb84163dce3cd4db5">
+               <CoverageTypeCd>Coverage</CoverageTypeCd>
+               <CoverageDesc>BusinessIncomeFoodContamination</CoverageDesc>
+               <Limit id="58c22f13a25b4221bae5a4fc927eaa4c">
+                  <FormatInteger>10000</FormatInteger>
+                  <LimitExt>
+                     <CodeDesc>FoodContamination</CodeDesc>
+                  </LimitExt>
+               </Limit>
+               <Limit id="d053dbc57afd4317ad4c4efdc0e82626">
+                  <FormatInteger>3000</FormatInteger>
+                  <LimitExt>
+                     <CodeDesc>AdditionalAdvertisingExpense</CodeDesc>
+                  </LimitExt>
+               </Limit>
+               <CoverageSupplement>
+                  <QuestionAnswer id="5f63453832bf4a809a6253f01e0c1586">
+                     <Explanation>[1052] Childcare</Explanation>
+                     <QuestionText>DescriptionOfBusiness</QuestionText>
+                     <QuestionTextReference>CoverageForm</QuestionTextReference>
+                  </QuestionAnswer>
+               </CoverageSupplement>
+               <CoverageExt/>
+            </Coverage>
+            <ValuationCd>RC</ValuationCd>
+            <CommlPropertyInfoExt>
+               <OccupationClassInfo id="f9b363ce4f124bb38bb44253d7952cf7"/>
+            </CommlPropertyInfoExt>
+         </CommlPropertyInfo>
+         <Coverage id="3c04ca2d340c42f3a40f7477df66a5b5">
+            <CoverageCd>EQPBK</CoverageCd>
+            <CoverageTypeCd>Coverage</CoverageTypeCd>
+            <CoverageDesc>EquipmentBreakdown</CoverageDesc>
+            <Limit id="be825399bd6041f6bdb4660cb925168f">
+               <FormatInteger>0</FormatInteger>
+               <LimitExt>
+                  <CodeDesc>AnnualAggregate</CodeDesc>
+               </LimitExt>
+            </Limit>
+            <Deductible id="17d3ef2b58a1455a878b75f47a34c89c">
+               <FormatInteger>250</FormatInteger>
+               <DeductibleExt>
+                  <CodeDesc>EquipmentBreakdown</CodeDesc>
+               </DeductibleExt>
+            </Deductible>
+            <CoverageSupplement>
+               <QuestionAnswer id="a9570af3687b4c08a7edf9f188770149">
+                  <YesNoCd>YES</YesNoCd>
+                  <QuestionText>EquipmentBreakdown</QuestionText>
+                  <QuestionTextReference>Indicators</QuestionTextReference>
+               </QuestionAnswer>
+            </CoverageSupplement>
+            <CoverageExt/>
+         </Coverage>
+         <Coverage id="b76207e1e34545088dcd998c5feda96d">
+            <CoverageCd>EQ</CoverageCd>
+            <CoverageTypeCd>Coverage</CoverageTypeCd>
+            <CoverageDesc>Earthquake</CoverageDesc>
+            <Deductible id="5fc60a2ee9064d60aa4ce647f3648b21">
+               <FormatInteger>10</FormatInteger>
+               <DeductibleExt>
+                  <CodeDesc>Earthquake</CodeDesc>
+               </DeductibleExt>
+            </Deductible>
+            <CoverageSupplement/>
+            <ExposureInfo>
+               <QuestionAnswer id="a5bdcaf7757849a189112b3186ef7cc5">
+                  <QuestionText>ARate</QuestionText>
+               </QuestionAnswer>
+            </ExposureInfo>
+            <CoverageExt/>
+         </Coverage>
+         <Coverage id="cfaa554b23e94ff89099bd9e68f9225e">
+            <CoverageCd>EDP</CoverageCd>
+            <CoverageTypeCd>Coverage</CoverageTypeCd>
+            <CoverageDesc>PersonalComputerEDP</CoverageDesc>
+            <Limit id="606f12e3e05642839dba58d4a94cd517">
+               <FormatInteger>100000</FormatInteger>
+               <LimitExt>
+                  <CodeDesc>PersonalComputerEDP</CodeDesc>
+               </LimitExt>
+            </Limit>
+            <CoverageSupplement>
+               <QuestionAnswer id="2d28cefeabb7451e91a3170e77deec47">
+                  <YesNoCd>YES</YesNoCd>
+                  <QuestionText>PersonalComputerEDP</QuestionText>
+                  <QuestionTextReference>Indicators</QuestionTextReference>
+               </QuestionAnswer>
+               <QuestionAnswer>
+                  <Num>34</Num>
+                  <QuestionText>NumberOfEmployees</QuestionText>
+                  <QuestionTextReference>PersonalComputerEDP</QuestionTextReference>
+               </QuestionAnswer>
+            </CoverageSupplement>
+            <CoverageExt/>
+         </Coverage>
+         <Coverage id="26ee63b11a944c23a7f16b67a9ac820b">
+            <CoverageCd>EMPDH</CoverageCd>
+            <CoverageTypeCd>Coverage</CoverageTypeCd>
+            <CoverageDesc>EmployeeDishonesty</CoverageDesc>
+            <Limit id="20238585ba5943bc810c9ff704a405d0">
+               <FormatInteger>25000</FormatInteger>
+               <LimitExt>
+                  <CodeDesc>EmployeeDishonesty</CodeDesc>
+               </LimitExt>
+            </Limit>
+            <CoverageSupplement>
+               <QuestionAnswer id="bd509730a1eb4aa3a6c5479c1223c938">
+                  <YesNoCd>YES</YesNoCd>
+                  <QuestionText>IncreaseEmployeeDishonesty</QuestionText>
+                  <QuestionTextReference>Indicators</QuestionTextReference>
+               </QuestionAnswer>
+               <QuestionAnswer>
+                  <Explanation/>
+                  <QuestionText>ERISAPlanName</QuestionText>
+               </QuestionAnswer>
+               <QuestionAnswer>
+                  <YesNoCd>YES</YesNoCd>
+                  <QuestionText>IncludeERISA</QuestionText>
+                  <QuestionTextReference>EmployeeDishonesty</QuestionTextReference>
+               </QuestionAnswer>
+               <QuestionAnswer>
+                  <Num>20000</Num>
+                  <QuestionText>IncreaseLimit</QuestionText>
+                  <QuestionTextReference>EmployeeDishonesty</QuestionTextReference>
+               </QuestionAnswer>
+               <QuestionAnswer>
+                  <Num>34</Num>
+                  <QuestionText>NumberOfEmployees</QuestionText>
+                  <QuestionTextReference>EmployeeDishonesty</QuestionTextReference>
+               </QuestionAnswer>
+            </CoverageSupplement>
+            <CoverageExt/>
+         </Coverage>
+         <Coverage id="c78cba1d71934d01b6a2c920473135b1">
+            <CoverageTypeCd>Coverage</CoverageTypeCd>
+            <CoverageDesc>CyberSuite</CoverageDesc>
+            <Limit id="06394cfc042b4845b673e179e01c6107">
+               <FormatInteger>1000000</FormatInteger>
+               <LimitExt>
+                  <CodeDesc>FirstPartyAnnualAggregate</CodeDesc>
+               </LimitExt>
+            </Limit>
+            <Limit id="95f57d9442ae47a2975805cadbf13e57">
+               <FormatInteger>1000000</FormatInteger>
+               <LimitExt>
+                  <CodeDesc>ThirdPartyAnnualAggregate</CodeDesc>
+               </LimitExt>
+            </Limit>
+            <Deductible id="560cd7e8eb864b20ab77bba69129bc9c">
+               <FormatInteger>10000</FormatInteger>
+               <DeductibleExt>
+                  <CodeDesc>FirstPartyAnnualAggregate</CodeDesc>
+               </DeductibleExt>
+            </Deductible>
+            <ExposureInfo>
+               <QuestionAnswer>
+                  <YesNoCd>NO</YesNoCd>
+                  <QuestionText>BreachLast36Months</QuestionText>
+                  <QuestionTextReference>CyberSuiteIncreasedLimit</QuestionTextReference>
+               </QuestionAnswer>
+               <QuestionAnswer>
+                  <YesNoCd>YES</YesNoCd>
+                  <QuestionText>Encryption</QuestionText>
+                  <QuestionTextReference>CyberSuiteIncreasedLimit</QuestionTextReference>
+               </QuestionAnswer>
+               <QuestionAnswer>
+                  <YesNoCd>YES</YesNoCd>
+                  <QuestionText>Firewalls</QuestionText>
+                  <QuestionTextReference>CyberSuiteIncreasedLimit</QuestionTextReference>
+               </QuestionAnswer>
+               <QuestionAnswer>
+                  <YesNoCd>YES</YesNoCd>
+                  <QuestionText>AntiVirus</QuestionText>
+                  <QuestionTextReference>CyberSuiteIncreasedLimit</QuestionTextReference>
+               </QuestionAnswer>
+               <QuestionAnswer>
+                  <YesNoCd>YES</YesNoCd>
+                  <QuestionText>LimitAccess</QuestionText>
+                  <QuestionTextReference>CyberSuiteIncreasedLimit</QuestionTextReference>
+               </QuestionAnswer>
+               <QuestionAnswer>
+                  <YesNoCd>YES</YesNoCd>
+                  <QuestionText>ComputerBackup</QuestionText>
+                  <QuestionTextReference>CyberSuiteIncreasedLimit</QuestionTextReference>
+               </QuestionAnswer>
+            </ExposureInfo>
+            <CoverageExt/>
+         </Coverage>
+      </PropertyInfo>
+      <CommlPropertyLineBusinessExt>
+         <BldgOccupancy id="f9b363ce4f124bb38bb44253d7952cf7">
+            <BldgOccupancyExt>
+               <CSP>1052</CSP>
+            </BldgOccupancyExt>
+         </BldgOccupancy>
+         <Clearance xmlns="">
+            <ClearedDateTimeStamp>2019-08-14T11:55:21.672</ClearedDateTimeStamp>
+         </Clearance>
+         <Deductible id="6c8eb0859b4d47d3a47b69e8ccb8d67b">
+            <FormatInteger>1000</FormatInteger>
+            <DeductibleExt>
+               <CodeDesc>BuildingAndProperty</CodeDesc>
+            </DeductibleExt>
+         </Deductible>
+      </CommlPropertyLineBusinessExt>
+      <QuestionAnswer id="69aefb2912114a3ab60d45b31cdfcff7">
+         <YesNoCd>NO</YesNoCd>
+         <QuestionText>CyberOne</QuestionText>
+         <QuestionTextReference>Indicators</QuestionTextReference>
+      </QuestionAnswer>
+      <QuestionAnswer id="7da6b08115ad42f8b4bb06fa54c45d52">
+         <YesNoCd>YES</YesNoCd>
+         <QuestionText>Selected</QuestionText>
+         <QuestionTextReference>Indicators</QuestionTextReference>
+      </QuestionAnswer>
+      <QuestionAnswer id="ad76f0f028914e898333c7ba5bf75a39">
+         <Explanation>1</Explanation>
+         <QuestionText>InputFactor</QuestionText>
+         <QuestionTextReference>IRPM</QuestionTextReference>
+      </QuestionAnswer>
+   </CommlPropertyLineBusiness>
+   <CommlAutoLineBusiness id="ec942facfb084ef1bdc3ac642947d85d">
+      <LOBCd>AUTOB</LOBCd>
+      <CoveredAutoSymbol>
+         <UninsuredMotoristSymbolCd>2</UninsuredMotoristSymbolCd>
+         <UnderinsuredMotoristSymbolCd>2</UnderinsuredMotoristSymbolCd>
+      </CoveredAutoSymbol>
+      <CommlRateState id="88588bacf0da3768b0d7ede67a0ddbdf">
+         <StateProvCd>IL</StateProvCd>
+         <CommlAutoHiredInfo>
+            <HiredLiabilityCostInfo>
+               <HiredLiabilityCostAmt>
+                  <Amt>4545</Amt>
+               </HiredLiabilityCostAmt>
+               <OptionCd>E</OptionCd>
+            </HiredLiabilityCostInfo>
+         </CommlAutoHiredInfo>
+         <CommlAutoNonOwnedInfo>
+            <NonOwnedInfo>
+               <NonOwnedGroupTypeCd>PRT</NonOwnedGroupTypeCd>
+               <NumNonOwned>3</NumNonOwned>
+            </NonOwnedInfo>
+            <NonOwnedInfo>
+               <NonOwnedGroupTypeCd>E</NonOwnedGroupTypeCd>
+               <NumNonOwned>34</NumNonOwned>
+            </NonOwnedInfo>
+         </CommlAutoNonOwnedInfo>
+         <Coverage id="4123abf0a759433aa9c91a607a59d1ae">
+            <CoverageDesc>HiredAndBorrowedLiability</CoverageDesc>
+            <Limit id="96f82b9f30ff4fd790fef446050229a4">
+               <FormatInteger>1000000</FormatInteger>
+               <LimitExt>
+                  <CodeDesc>CSL</CodeDesc>
+               </LimitExt>
+            </Limit>
+            <ExposureInfo>
+               <QuestionAnswer>
+                  <Explanation>1</Explanation>
+                  <QuestionText>ScheduledMod</QuestionText>
+                  <QuestionTextReference>Liability</QuestionTextReference>
+               </QuestionAnswer>
+            </ExposureInfo>
+         </Coverage>
+         <Coverage id="2a4b4dc9f8774f78812ff5466c3a669c">
+            <CoverageDesc>HiredAndBorrowedExcessLiability</CoverageDesc>
+            <Limit id="53951c4acb544900b9af5dc74683bc7b">
+               <FormatInteger>1000000</FormatInteger>
+               <LimitExt>
+                  <CodeDesc>CSL</CodeDesc>
+               </LimitExt>
+            </Limit>
+            <Option>
+               <OptionCd>No</OptionCd>
+               <OptionValueDesc>IfAny</OptionValueDesc>
+            </Option>
+            <Option>
+               <OptionValue>1</OptionValue>
+               <OptionValueDesc>CoverageSelected</OptionValueDesc>
+            </Option>
+            <ExposureInfo>
+               <QuestionAnswer id="a1a001f01d2740088974a31084c60eb3">
+                  <Explanation>0</Explanation>
+                  <QuestionText>UnderwriterOverride</QuestionText>
+               </QuestionAnswer>
+               <QuestionAnswer>
+                  <Explanation>1</Explanation>
+                  <QuestionText>ScheduledMod</QuestionText>
+                  <QuestionTextReference>Liability</QuestionTextReference>
+               </QuestionAnswer>
+            </ExposureInfo>
+         </Coverage>
+         <Coverage id="ac991976aa0b4ed489a2f86fc1889116">
+            <CoverageCd/>
+            <CoverageTypeCd>Coverage</CoverageTypeCd>
+            <CoverageDesc>HiredAndBorrowedUMBI</CoverageDesc>
+            <Limit id="8170cc0b578145f58b5ebbf8dbe2cb36">
+               <FormatInteger>1000000</FormatInteger>
+               <LimitExt>
+                  <CodeDesc>CSL</CodeDesc>
+               </LimitExt>
+               <LimitAppliesToCd>CSL</LimitAppliesToCd>
+            </Limit>
+            <Option id="de1a604da7534b6f90ba34972899d3c5">
+               <OptionCd>Yes</OptionCd>
+               <OptionValueDesc>AcceptUMCoverage</OptionValueDesc>
+            </Option>
+            <Option id="fe06769261d4448eae07a4d3eec5b49e">
+               <OptionValue>1</OptionValue>
+               <OptionValueDesc>CoverageSelected</OptionValueDesc>
+            </Option>
+            <Option>
+               <OptionValueDesc>IfAny</OptionValueDesc>
+            </Option>
+         </Coverage>
+         <Coverage id="4d7726d9458346cc82e17a76e53bf9d0">
+            <CoverageCd/>
+            <CoverageTypeCd>Coverage</CoverageTypeCd>
+            <CoverageDesc>NonOwnedAutoStateUMBI</CoverageDesc>
+            <Limit id="626fcb3af8b8470bbe253b863148b745">
+               <FormatInteger>1000000</FormatInteger>
+               <LimitExt>
+                  <CodeDesc>NonOwnedCSL</CodeDesc>
+               </LimitExt>
+            </Limit>
+            <Option id="3b354076121d416d850472ff962cec0f">
+               <OptionCd>Yes</OptionCd>
+               <OptionValueDesc>AcceptNonOwnedUMCoverage</OptionValueDesc>
+            </Option>
+            <Option id="25df1fee234547b8a6b36ca59b0563c1">
+               <OptionValue>1</OptionValue>
+               <OptionValueDesc>CoverageSelected</OptionValueDesc>
+            </Option>
+            <CoverageSupplement>
+               <QuestionAnswer>
+                  <Num>34</Num>
+                  <QuestionText>NumberOfEmployeesEstimate</QuestionText>
+               </QuestionAnswer>
+               <QuestionAnswer>
+                  <Num>34</Num>
+                  <QuestionText>NumberOfEmployees</QuestionText>
+               </QuestionAnswer>
+            </CoverageSupplement>
+         </Coverage>
+         <Coverage id="e1f37a1f6c7844d1b9723071d27c6e71">
+            <CoverageCd/>
+            <CoverageTypeCd>Coverage</CoverageTypeCd>
+            <CoverageDesc>HiredAndBorrowedUIMBI</CoverageDesc>
+            <Limit id="c67c425b1f1247e5a95cf632d0fb4b76">
+               <FormatInteger>1000000</FormatInteger>
+               <LimitExt>
+                  <CodeDesc>CSL</CodeDesc>
+               </LimitExt>
+               <LimitAppliesToCd>CSL</LimitAppliesToCd>
+            </Limit>
+            <Option id="630ea0cca3ec40f2b29eb1e7dc85e96d">
+               <OptionCd>Yes</OptionCd>
+               <OptionValueDesc>AcceptUIMCoverage</OptionValueDesc>
+            </Option>
+            <Option id="4049414619cd4cc58db10add6c6b6547">
+               <OptionValue>1</OptionValue>
+               <OptionValueDesc>CoverageSelected</OptionValueDesc>
+            </Option>
+            <Option>
+               <OptionValueDesc>IfAny</OptionValueDesc>
+            </Option>
+         </Coverage>
+         <Coverage id="a8a935fa6ea643479d75c133b17a344b">
+            <CoverageCd/>
+            <CoverageTypeCd>Coverage</CoverageTypeCd>
+            <CoverageDesc>NonOwnedAutoStateUIM</CoverageDesc>
+            <Limit id="4c2137f9be1f4e14bc05ac9d80a156d3">
+               <FormatInteger>1000000</FormatInteger>
+               <LimitExt>
+                  <CodeDesc>NonOwnedCSL</CodeDesc>
+               </LimitExt>
+            </Limit>
+            <Option id="0076650301884bebaec3089d20db517f">
+               <OptionCd>Yes</OptionCd>
+               <OptionValueDesc>AcceptNonOwnedUIMCoverage</OptionValueDesc>
+            </Option>
+            <Option id="c1af64367f3346a1b06e526e15ebc20d">
+               <OptionValue>1</OptionValue>
+               <OptionValueDesc>CoverageSelected</OptionValueDesc>
+            </Option>
+         </Coverage>
+         <CommlAutoDriveOtherCarInfo>
+            <Coverage id="1711029bfaa9443086cab187cf5899a9">
+               <CoverageTypeCd>Coverage</CoverageTypeCd>
+               <CoverageDesc>DriveOtherCarLiability</CoverageDesc>
+               <Option>
+                  <OptionCd>Yes</OptionCd>
+                  <OptionValueDesc>DriveOtherCarLiability</OptionValueDesc>
+               </Option>
+            </Coverage>
+            <Coverage id="0b8f4751e5ff43fbbe3a0f47b7eaff72">
+               <CoverageCd/>
+               <CoverageTypeCd>Coverage</CoverageTypeCd>
+               <CoverageDesc>DriveOtherCarMedical</CoverageDesc>
+               <Limit id="f380d8c07d924974acb7719b0dcb880f">
+                  <FormatInteger>5000</FormatInteger>
+                  <LimitExt>
+                     <CodeDesc>Standard</CodeDesc>
+                  </LimitExt>
+               </Limit>
+            </Coverage>
+            <Coverage id="9bc0176783444332a6bce324dfe8edf1">
+               <CoverageTypeCd>Coverage</CoverageTypeCd>
+               <CoverageDesc>DriveOtherCarUMBI</CoverageDesc>
+               <Limit id="644d761568774871ba37d73038e3911b">
+                  <FormatInteger>1000000</FormatInteger>
+                  <LimitExt>
+                     <CodeDesc>CSL</CodeDesc>
+                  </LimitExt>
+               </Limit>
+               <Deductible>
+                  <FormatInteger>0</FormatInteger>
+                  <DeductibleTypeCd>CL</DeductibleTypeCd>
+                  <DeductibleExt>
+                     <CodeDesc>Standard</CodeDesc>
+                  </DeductibleExt>
+               </Deductible>
+               <Option>
+                  <OptionCd>No</OptionCd>
+                  <OptionValueDesc>IncludeUIM</OptionValueDesc>
+               </Option>
+               <Option>
+                  <OptionCd>Yes</OptionCd>
+                  <OptionValueDesc>AcceptDOCUMCoverage</OptionValueDesc>
+               </Option>
+               <CoverageSupplement>
+                  <QuestionAnswer>
+                     <Explanation>Statutory</Explanation>
+                     <QuestionText>StatutoryCoverage</QuestionText>
+                  </QuestionAnswer>
+                  <QuestionAnswer>
+                     <Explanation>Interpolicy</Explanation>
+                     <QuestionText>DOCInterpolicyStacking</QuestionText>
+                  </QuestionAnswer>
+                  <QuestionAnswer>
+                     <QuestionText>DOC_UMType</QuestionText>
+                  </QuestionAnswer>
+               </CoverageSupplement>
+               <ExposureInfo>
+                  <ExposureInfo>
+                     <QuestionAnswer>
+                        <Explanation>1</Explanation>
+                        <QuestionText>ScheduledMod</QuestionText>
+                        <QuestionTextReference>Liability</QuestionTextReference>
+                     </QuestionAnswer>
+                  </ExposureInfo>
+               </ExposureInfo>
+            </Coverage>
+            <Coverage id="e214dd87fdbb44049e771fe8b9f19db4">
+               <CoverageTypeCd>Coverage</CoverageTypeCd>
+               <CoverageDesc>DriveOtherCarUIM</CoverageDesc>
+               <Limit id="e5e5be4bae1d4c4f8307908bb2426914">
+                  <FormatInteger>1000000</FormatInteger>
+                  <LimitExt>
+                     <CodeDesc>CSL</CodeDesc>
+                  </LimitExt>
+               </Limit>
+               <Option>
+                  <OptionCd>No</OptionCd>
+                  <OptionValueDesc>IncludeUIM</OptionValueDesc>
+               </Option>
+               <Option>
+                  <OptionCd>Yes</OptionCd>
+                  <OptionValueDesc>AcceptDOCUIMCoverage</OptionValueDesc>
+               </Option>
+               <CoverageSupplement>
+                  <QuestionAnswer>
+                     <Explanation>UIM</Explanation>
+                     <QuestionText>UIMType</QuestionText>
+                  </QuestionAnswer>
+               </CoverageSupplement>
+            </Coverage>
+            <Coverage id="4ad3e9239bbb430ba9604709af08adcc">
+               <CoverageTypeCd>Coverage</CoverageTypeCd>
+               <CoverageDesc>DriveOtherCarOTC</CoverageDesc>
+               <Deductible>
+                  <FormatInteger>250</FormatInteger>
+                  <DeductibleTypeCd>CL</DeductibleTypeCd>
+                  <DeductibleExt>
+                     <CodeDesc>Standard</CodeDesc>
+                  </DeductibleExt>
+               </Deductible>
+            </Coverage>
+            <Coverage id="008b896c8f1a4bcebb4c1cc74ca5737e">
+               <CoverageTypeCd>Coverage</CoverageTypeCd>
+               <CoverageDesc>DriveOtherCarCollision</CoverageDesc>
+               <Deductible>
+                  <FormatInteger>500</FormatInteger>
+                  <DeductibleTypeCd>CL</DeductibleTypeCd>
+                  <DeductibleExt>
+                     <CodeDesc>Standard</CodeDesc>
+                  </DeductibleExt>
+               </Deductible>
+            </Coverage>
+            <NameInfo>
+               <PersonName>
+                  <GivenName>Tom Jones</GivenName>
+               </PersonName>
+            </NameInfo>
+         </CommlAutoDriveOtherCarInfo>
+         <QuestionAnswer>
+            <YesNoCd>Yes</YesNoCd>
+            <QuestionText>DriveOtherCarCoverage</QuestionText>
+         </QuestionAnswer>
+         <Vehicle xmlns:wbmiAuto="http://www.wbmi.org/CommercialLines/AcordMapping/Auto"
+                  id="660301565805829167"
+                  LocationRef="660301565805090859">
+            <ItemIdInfo>
+               <InsurerId>1</InsurerId>
+            </ItemIdInfo>
+            <Manufacturer>DODGE</Manufacturer>
+            <Model>CARAVAN</Model>
+            <ModelYear>2005</ModelYear>
+            <VehBodyTypeCd>PP</VehBodyTypeCd>
+            <VehTypeCd>PP</VehTypeCd>
+            <PurchasePriceAmt>
+               <Amt>26315</Amt>
+            </PurchasePriceAmt>
+            <PresentValueAmt>
+               <Amt>26315</Amt>
+            </PresentValueAmt>
+            <TerritoryCd>140</TerritoryCd>
+            <VehIdentificationNumber>2D4GP44L75R160057</VehIdentificationNumber>
+            <Addr id="591a12e6437e4a5c8a3f97c632d232df">
+               <DetailAddr>
+                  <PreDirectionCd>N</PreDirectionCd>
+                  <StreetName>Berwick</StreetName>
+                  <StreetTypeCd>Blvd</StreetTypeCd>
+                  <StreetNumber>1605</StreetNumber>
+               </DetailAddr>
+               <City>Waukegan</City>
+               <StateProvCd>IL</StateProvCd>
+               <PostalCode>60085-1520</PostalCode>
+               <County>Lake County</County>
+               <Country>United States of America</Country>
+               <Latitude>42.383017</Latitude>
+               <Longitude>-87.859576</Longitude>
+               <AddrExt>
+                  <Clearance xmlns="">
+                     <LastVerified>2019-08-14</LastVerified>
+                  </Clearance>
+               </AddrExt>
+               <LegalAddr>
+                  <LegalAddrCd>Block</LegalAddrCd>
+                  <Description>170978618041016</Description>
+               </LegalAddr>
+            </Addr>
+            <Coverage id="a32a757a9899412883d59f363e17dabc">
+               <CoverageCd>UMCPD</CoverageCd>
+               <CoverageTypeCd>Coverage</CoverageTypeCd>
+               <CoverageDesc>UMBI</CoverageDesc>
+               <Limit id="a22abec36e404b068d752fe6b989fa95">
+                  <FormatInteger>1000000</FormatInteger>
+                  <LimitExt>
+                     <CodeDesc>CSL</CodeDesc>
+                  </LimitExt>
+               </Limit>
+               <Option id="3cb9f057e6f0464ea876bd3f5c329bd2">
+                  <OptionCd>Yes</OptionCd>
+                  <OptionValueDesc>AcceptUMCoverage</OptionValueDesc>
+               </Option>
+            </Coverage>
+            <Coverage id="ac101d2943c54196a147e786e782900e">
+               <CoverageCd>UMCSL</CoverageCd>
+               <CoverageTypeCd>Coverage</CoverageTypeCd>
+               <CoverageDesc>UIM</CoverageDesc>
+               <Limit id="f2e7f19b00504efc93e26f3c7c919d25">
+                  <FormatInteger>1000000</FormatInteger>
+                  <LimitExt>
+                     <CodeDesc>CSL</CodeDesc>
+                  </LimitExt>
+               </Limit>
+               <Option id="2865082f0b914b6e85027e41b8daa92c">
+                  <OptionCd>Yes</OptionCd>
+                  <OptionValueDesc>AcceptUIMCoverage</OptionValueDesc>
+               </Option>
+            </Coverage>
+            <Coverage id="048cc373275d4402a709294c05406040">
+               <CoverageCd>MEDPM</CoverageCd>
+               <CoverageTypeCd>Coverage</CoverageTypeCd>
+               <CoverageDesc>Medical</CoverageDesc>
+               <Limit id="af1be079c26b4b27834381d9ee5f2e0f">
+                  <FormatInteger>5000</FormatInteger>
+                  <LimitAppliesToCd>Medical</LimitAppliesToCd>
+                  <LimitExt>
+                     <CodeDesc>Standard</CodeDesc>
+                  </LimitExt>
+               </Limit>
+               <Option>
+                  <OptionValue>1</OptionValue>
+                  <OptionValueDesc>CoverageSelected</OptionValueDesc>
+               </Option>
+               <CoverageExt>
+                  <Coverage id="75c2ed4b1732413b8865f7c253303ea7">
+                     <CoverageCd/>
+                     <CoverageTypeCd>Coverage</CoverageTypeCd>
+                     <CoverageDesc>MedicalCoverage</CoverageDesc>
+                     <Option>
+                        <OptionValue>1</OptionValue>
+                        <OptionValueDesc>CoverageSelected</OptionValueDesc>
+                     </Option>
+                  </Coverage>
+               </CoverageExt>
+            </Coverage>
+            <Coverage id="992b500eed90453b9f9e325be01a7096">
+               <CoverageCd>TL</CoverageCd>
+               <CoverageTypeCd>Coverage</CoverageTypeCd>
+               <CoverageDesc>Towing</CoverageDesc>
+               <Limit id="6be75c3272d24bccbfd02d1dd823519c">
+                  <FormatInteger>200</FormatInteger>
+                  <LimitExt>
+                     <CodeDesc>Standard</CodeDesc>
+                  </LimitExt>
+               </Limit>
+               <Limit id="4f89873912ec4fb695e148a442a197a4">
+                  <FormatInteger>3</FormatInteger>
+                  <LimitExt>
+                     <CodeDesc>Towing</CodeDesc>
+                  </LimitExt>
+               </Limit>
+               <Option id="07790fe7f5dc47fdba225003c3fde808">
+                  <OptionCd>No</OptionCd>
+                  <OptionValueDesc>UnderwriterOverride</OptionValueDesc>
+               </Option>
+               <Option id="82240eac16244b0c81f8f82dad85960f">
+                  <OptionValue>1</OptionValue>
+                  <OptionValueDesc>CoverageSelected</OptionValueDesc>
+               </Option>
+               <CoverageSupplement>
+                  <QuestionAnswer>
+                     <Num>3</Num>
+                     <QuestionText>Towing</QuestionText>
+                  </QuestionAnswer>
+               </CoverageSupplement>
+               <ExposureInfo>
+                  <QuestionAnswer>
+                     <Explanation>1</Explanation>
+                     <QuestionText>ExperienceMod</QuestionText>
+                  </QuestionAnswer>
+                  <QuestionAnswer>
+                     <Explanation>1</Explanation>
+                     <QuestionText>ScheduledMod</QuestionText>
+                  </QuestionAnswer>
+               </ExposureInfo>
+            </Coverage>
+            <Coverage id="4adda4e837f83f3f8f564b550ecbbd66">
+               <CoverageCd/>
+               <CoverageTypeCd>Coverage</CoverageTypeCd>
+               <CoverageDesc>CSL</CoverageDesc>
+               <Option>
+                  <OptionCd>No</OptionCd>
+                  <OptionValueDesc>PropertyDamageBuyback</OptionValueDesc>
+               </Option>
+               <CoverageSupplement/>
+               <ExposureInfo/>
+            </Coverage>
+            <QuestionAnswer>
+               <YesNoCd>No</YesNoCd>
+               <QuestionText>SubjectToNoFault</QuestionText>
+            </QuestionAnswer>
+         </Vehicle>
+         <Vehicle xmlns:wbmiAuto="http://www.wbmi.org/CommercialLines/AcordMapping/Auto"
+                  id="660301565805883817"
+                  LocationRef="660301565805090859">
+            <ItemIdInfo>
+               <InsurerId>2</InsurerId>
+            </ItemIdInfo>
+            <Manufacturer>CHEVROLET</Manufacturer>
+            <Model>HHR</Model>
+            <ModelYear>2009</ModelYear>
+            <VehBodyTypeCd>TRUCKT</VehBodyTypeCd>
+            <VehTypeCd>TRUCK01</VehTypeCd>
+            <PurchasePriceAmt>
+               <Amt>19240</Amt>
+            </PurchasePriceAmt>
+            <PresentValueAmt>
+               <Amt>19240</Amt>
+            </PresentValueAmt>
+            <TerritoryCd>140</TerritoryCd>
+            <VehIdentificationNumber>3GCCA85B09S520997</VehIdentificationNumber>
+            <GrossVehWeight>
+               <NumUnits>10000</NumUnits>
+            </GrossVehWeight>
+            <VehUseCd>CM</VehUseCd>
+            <SeatingCapacity>96</SeatingCapacity>
+            <Addr id="9017569905ec4479884f3394730b43f0">
+               <DetailAddr>
+                  <PreDirectionCd>N</PreDirectionCd>
+                  <StreetName>Berwick</StreetName>
+                  <StreetTypeCd>Blvd</StreetTypeCd>
+                  <StreetNumber>1605</StreetNumber>
+               </DetailAddr>
+               <City>Waukegan</City>
+               <StateProvCd>IL</StateProvCd>
+               <PostalCode>60085-1520</PostalCode>
+               <County>Lake County</County>
+               <Country>United States of America</Country>
+               <Latitude>42.383017</Latitude>
+               <Longitude>-87.859576</Longitude>
+               <AddrExt>
+                  <Clearance xmlns="">
+                     <LastVerified>2019-08-14</LastVerified>
+                  </Clearance>
+               </AddrExt>
+               <LegalAddr>
+                  <LegalAddrCd>Block</LegalAddrCd>
+                  <Description>170978618041016</Description>
+               </LegalAddr>
+            </Addr>
+            <RadiusUseTypeCd>IN</RadiusUseTypeCd>
+            <RadiusUse>
+               <NumUnits>200</NumUnits>
+               <UnitMeasurementCd>mile</UnitMeasurementCd>
+            </RadiusUse>
+            <Coverage id="ae1642b0fa224e6d8d6f1b36e73117ae">
+               <CoverageCd>UMCPD</CoverageCd>
+               <CoverageTypeCd>Coverage</CoverageTypeCd>
+               <CoverageDesc>UMBI</CoverageDesc>
+               <Limit id="3c5ee59dac24468fbd070fc525ed3c2d">
+                  <FormatInteger>1000000</FormatInteger>
+                  <LimitExt>
+                     <CodeDesc>CSL</CodeDesc>
+                  </LimitExt>
+               </Limit>
+               <Option id="a02647803d5943d292f3d654a39e3caf">
+                  <OptionCd>Yes</OptionCd>
+                  <OptionValueDesc>AcceptUMCoverage</OptionValueDesc>
+               </Option>
+            </Coverage>
+            <Coverage id="0e10d3d1cb3b47a38810d3461459f6e5">
+               <CoverageCd>UMCSL</CoverageCd>
+               <CoverageTypeCd>Coverage</CoverageTypeCd>
+               <CoverageDesc>UIM</CoverageDesc>
+               <Limit id="6cc940374ff7401396aa7b77fc601e03">
+                  <FormatInteger>1000000</FormatInteger>
+                  <LimitExt>
+                     <CodeDesc>CSL</CodeDesc>
+                  </LimitExt>
+               </Limit>
+               <Option id="564df6937df04f0288f99b7db829a686">
+                  <OptionCd>Yes</OptionCd>
+                  <OptionValueDesc>AcceptUIMCoverage</OptionValueDesc>
+               </Option>
+            </Coverage>
+            <Coverage id="ffd6284813684a028b7c6f1822c7609a">
+               <CoverageCd>MEDPM</CoverageCd>
+               <CoverageTypeCd>Coverage</CoverageTypeCd>
+               <CoverageDesc>Medical</CoverageDesc>
+               <Limit id="1d720421846242d8bef47d1f0dfd60b2">
+                  <FormatInteger>5000</FormatInteger>
+                  <LimitAppliesToCd>Medical</LimitAppliesToCd>
+                  <LimitExt>
+                     <CodeDesc>Standard</CodeDesc>
+                  </LimitExt>
+               </Limit>
+               <Option>
+                  <OptionValue>1</OptionValue>
+                  <OptionValueDesc>CoverageSelected</OptionValueDesc>
+               </Option>
+               <CoverageExt>
+                  <Coverage id="2bc4064f077640338a51fb276aba3001">
+                     <CoverageCd/>
+                     <CoverageTypeCd>Coverage</CoverageTypeCd>
+                     <CoverageDesc>MedicalCoverage</CoverageDesc>
+                     <Option>
+                        <OptionValue>1</OptionValue>
+                        <OptionValueDesc>CoverageSelected</OptionValueDesc>
+                     </Option>
+                  </Coverage>
+               </CoverageExt>
+            </Coverage>
+            <Coverage id="d4d5b14f351c435897fae5c1f58698ec">
+               <CoverageCd>COMP</CoverageCd>
+               <CoverageTypeCd>Coverage</CoverageTypeCd>
+               <CoverageDesc>OTC</CoverageDesc>
+               <Deductible>
+                  <FormatInteger>250</FormatInteger>
+                  <DeductibleTypeCd>CL</DeductibleTypeCd>
+                  <DeductibleExt>
+                     <CodeDesc>Standard</CodeDesc>
+                  </DeductibleExt>
+               </Deductible>
+               <Option>
+                  <OptionCd>Yes</OptionCd>
+                  <OptionValueDesc>AcceptOTCCoverage</OptionValueDesc>
+               </Option>
+               <Option>
+                  <OptionCd>Yes</OptionCd>
+                  <OptionValueDesc>AllPerilsDeductible</OptionValueDesc>
+               </Option>
+               <Option>
+                  <OptionCd>No</OptionCd>
+                  <OptionValueDesc>FallThroughIceCoverage</OptionValueDesc>
+               </Option>
+               <Option>
+                  <OptionCd>No</OptionCd>
+                  <OptionValueDesc>UnderwriterOverride</OptionValueDesc>
+               </Option>
+               <Option>
+                  <OptionCd>Yes</OptionCd>
+                  <OptionValueDesc>OTCCoverage</OptionValueDesc>
+               </Option>
+               <Option>
+                  <OptionCd>No</OptionCd>
+                  <OptionValueDesc>AllPerilsDeductibleGarageKeepers</OptionValueDesc>
+               </Option>
+               <Option>
+                  <OptionValue>1</OptionValue>
+                  <OptionValueDesc>CoverageSelected</OptionValueDesc>
+               </Option>
+               <Rate>1.75</Rate>
+               <CoverageSupplement>
+                  <QuestionAnswer>
+                     <Explanation>Comprehensive</Explanation>
+                     <QuestionText>OTCCauseOfLoss</QuestionText>
+                  </QuestionAnswer>
+                  <QuestionAnswer>
+                     <Explanation>n/a</Explanation>
+                     <QuestionText>AntiTheftDeviceDiscount</QuestionText>
+                  </QuestionAnswer>
+               </CoverageSupplement>
+               <ExposureInfo>
+                  <QuestionAnswer>
+                     <Explanation>1</Explanation>
+                     <QuestionText>ARateAdditionalCoveragesFactor</QuestionText>
+                  </QuestionAnswer>
+                  <QuestionAnswer>
+                     <Explanation>0</Explanation>
+                     <QuestionText>ARateDailyRateMinPrem</QuestionText>
+                  </QuestionAnswer>
+                  <QuestionAnswer>
+                     <Explanation>0</Explanation>
+                     <QuestionText>ARateFinancedAutoOTC</QuestionText>
+                  </QuestionAnswer>
+                  <QuestionAnswer>
+                     <QuestionText>ARateDailyRate</QuestionText>
+                  </QuestionAnswer>
+               </ExposureInfo>
+               <CoverageExt>
+                  <Coverage id="e65f381f0a0b42d5a0d50acdd6dba2fc">
+                     <CoverageCd/>
+                     <CoverageTypeCd>Coverage</CoverageTypeCd>
+                     <CoverageDesc>OTCCoverage</CoverageDesc>
+                     <Option>
+                        <OptionValue>1</OptionValue>
+                        <OptionValueDesc>CoverageSelected</OptionValueDesc>
+                     </Option>
+                     <CoverageSupplement>
+                        <QuestionAnswer>
+                           <Explanation>None</Explanation>
+                           <QuestionText>RideSharingArrangement</QuestionText>
+                        </QuestionAnswer>
+                     </CoverageSupplement>
+                     <ExposureInfo>
+                        <QuestionAnswer>
+                           <Explanation>1</Explanation>
+                           <QuestionText>ExperienceMod</QuestionText>
+                        </QuestionAnswer>
+                        <QuestionAnswer>
+                           <Explanation>1</Explanation>
+                           <QuestionText>ScheduledMod</QuestionText>
+                        </QuestionAnswer>
+                     </ExposureInfo>
+                     <CoverageExt/>
+                  </Coverage>
+                  <Coverage>
+                     <CoverageCd/>
+                     <CoverageTypeCd>Coverage</CoverageTypeCd>
+                     <CoverageDesc>OTCLoanLease</CoverageDesc>
+                     <Option>
+                        <OptionValue>1</OptionValue>
+                        <OptionValueDesc>CoverageSelected</OptionValueDesc>
+                     </Option>
+                  </Coverage>
+               </CoverageExt>
+            </Coverage>
+            <Coverage id="ee7d444885764e8f88317dd8e90fde5e">
+               <CoverageCd>COLL</CoverageCd>
+               <CoverageTypeCd>Coverage</CoverageTypeCd>
+               <CoverageDesc>Collision</CoverageDesc>
+               <Deductible>
+                  <FormatInteger>500</FormatInteger>
+                  <DeductibleTypeCd>CL</DeductibleTypeCd>
+                  <DeductibleExt>
+                     <CodeDesc>Standard</CodeDesc>
+                  </DeductibleExt>
+               </Deductible>
+               <Option>
+                  <OptionCd>No</OptionCd>
+                  <OptionValueDesc>BroadenedCollision</OptionValueDesc>
+               </Option>
+               <Option>
+                  <OptionCd>No</OptionCd>
+                  <OptionValueDesc>LimitedFullCoverageCollision</OptionValueDesc>
+               </Option>
+               <Option>
+                  <OptionCd>No</OptionCd>
+                  <OptionValueDesc>UnderwriterOverride</OptionValueDesc>
+               </Option>
+               <Option>
+                  <OptionCd>Yes</OptionCd>
+                  <OptionValueDesc>AcceptCollisionCoverage</OptionValueDesc>
+               </Option>
+               <Option>
+                  <OptionValue>1</OptionValue>
+                  <OptionValueDesc>CoverageSelected</OptionValueDesc>
+               </Option>
+               <Rate>1.75</Rate>
+               <CoverageSupplement>
+                  <QuestionAnswer>
+                     <Num>0</Num>
+                     <QuestionText>NumberOfSafetyFeatures</QuestionText>
+                  </QuestionAnswer>
+                  <QuestionAnswer>
+                     <Explanation>Collision</Explanation>
+                     <QuestionText>CollisionType</QuestionText>
+                  </QuestionAnswer>
+               </CoverageSupplement>
+               <ExposureInfo>
+                  <QuestionAnswer>
+                     <Explanation>0</Explanation>
+                     <QuestionText>ARateFinancedAutoCollision</QuestionText>
+                  </QuestionAnswer>
+               </ExposureInfo>
+               <CoverageExt>
+                  <Coverage id="ec5b79684d0845abb94d55aa8a5fa32a">
+                     <CoverageCd/>
+                     <CoverageTypeCd>Coverage</CoverageTypeCd>
+                     <CoverageDesc>CollisionCoverage</CoverageDesc>
+                     <Option>
+                        <OptionValue>1</OptionValue>
+                        <OptionValueDesc>CoverageSelected</OptionValueDesc>
+                     </Option>
+                     <CoverageSupplement>
+                        <QuestionAnswer>
+                           <Explanation>None</Explanation>
+                           <QuestionText>RideSharingArrangement</QuestionText>
+                        </QuestionAnswer>
+                     </CoverageSupplement>
+                     <ExposureInfo>
+                        <QuestionAnswer>
+                           <Explanation>1</Explanation>
+                           <QuestionText>ExperienceMod</QuestionText>
+                        </QuestionAnswer>
+                        <QuestionAnswer>
+                           <Explanation>1</Explanation>
+                           <QuestionText>ScheduledMod</QuestionText>
+                        </QuestionAnswer>
+                     </ExposureInfo>
+                     <CoverageExt/>
+                  </Coverage>
+                  <Coverage>
+                     <CoverageCd/>
+                     <CoverageTypeCd>Coverage</CoverageTypeCd>
+                     <CoverageDesc>CollisionLoanLease</CoverageDesc>
+                     <Option>
+                        <OptionValue>1</OptionValue>
+                        <OptionValueDesc>CoverageSelected</OptionValueDesc>
+                     </Option>
+                  </Coverage>
+               </CoverageExt>
+            </Coverage>
+            <Coverage id="1307aa683ea93727b0fea2b014237e2a">
+               <CoverageCd/>
+               <CoverageTypeCd>Coverage</CoverageTypeCd>
+               <CoverageDesc>CSL</CoverageDesc>
+               <Option>
+                  <OptionCd>No</OptionCd>
+                  <OptionValueDesc>PropertyDamageBuyback</OptionValueDesc>
+               </Option>
+               <CoverageSupplement/>
+               <ExposureInfo/>
+            </Coverage>
+            <QuestionAnswer>
+               <Explanation>ChildCare</Explanation>
+               <QuestionText>SecondaryClassCategory</QuestionText>
+            </QuestionAnswer>
+            <QuestionAnswer>
+               <Num>96</Num>
+               <QuestionText>SecondaryClassCode</QuestionText>
+            </QuestionAnswer>
+            <QuestionAnswer>
+               <YesNoCd>No</YesNoCd>
+               <QuestionText>SubjectToNoFault</QuestionText>
+            </QuestionAnswer>
+         </Vehicle>
+         <QuestionAnswer>
+            <Explanation>UMBICSL</Explanation>
+            <QuestionText>StateDefaultUMType</QuestionText>
+         </QuestionAnswer>
+         <QuestionAnswer>
+            <Explanation>UIMCSL</Explanation>
+            <QuestionText>StateDefaultUIMType</QuestionText>
+         </QuestionAnswer>
+         <QuestionAnswer>
+            <Explanation>IL</Explanation>
+            <QuestionText>LineCoverageState</QuestionText>
+         </QuestionAnswer>
+         <QuestionAnswer>
+            <Explanation>UMUIM</Explanation>
+            <QuestionText>StateDefaultUMUIMOptions</QuestionText>
+         </QuestionAnswer>
+         <QuestionAnswer>
+            <YesNoCd>NO</YesNoCd>
+            <QuestionText>LiabilityPropertyDamageBuyback</QuestionText>
+            <QuestionTextReference>LineStateIndicators</QuestionTextReference>
+         </QuestionAnswer>
+      </CommlRateState>
+      <QuestionAnswer>
+         <Explanation>1</Explanation>
+         <QuestionText>scheduledMod</QuestionText>
+         <QuestionTextReference>TotalInputLiability</QuestionTextReference>
+      </QuestionAnswer>
+      <QuestionAnswer>
+         <Explanation>1</Explanation>
+         <QuestionText>scheduledMod</QuestionText>
+         <QuestionTextReference>TotalInputPhysicalDamage</QuestionTextReference>
+      </QuestionAnswer>
+      <Coverage id="852c913ed5cb48baadf1cc821494ef0c">
+         <CoverageDesc>NonOwnedAutoLiability</CoverageDesc>
+         <Limit id="cff373a629904951b2b139ca5ce3addc">
+            <FormatInteger>1000000</FormatInteger>
+            <LimitExt>
+               <CodeDesc>CSL</CodeDesc>
+            </LimitExt>
+         </Limit>
+         <ExposureInfo>
+            <QuestionAnswer>
+               <Explanation>1</Explanation>
+               <QuestionText>ScheduledMod</QuestionText>
+               <QuestionTextReference>Liability</QuestionTextReference>
+            </QuestionAnswer>
+         </ExposureInfo>
+         <CoverageExt>
+            <Coverage id="a120e47c24d041398125914ac5cbad45">
+               <CoverageCd/>
+               <CoverageTypeCd>Coverage</CoverageTypeCd>
+               <CoverageDesc>NonOwnedPartnership</CoverageDesc>
+               <Option>
+                  <OptionValue>1</OptionValue>
+                  <OptionValueDesc>CoverageSelected</OptionValueDesc>
+               </Option>
+            </Coverage>
+         </CoverageExt>
+      </Coverage>
+      <Coverage id="f3e7ad6ed1394e40b023a226e689010c">
+         <CoverageCd>LIAB</CoverageCd>
+         <CoverageDesc>Liability</CoverageDesc>
+         <Limit id="9cc9457325054a209be7c6bec1a30587">
+            <FormatInteger>1000000</FormatInteger>
+         </Limit>
+      </Coverage>
+      <Coverage id="450d7d6288fa4d2d8ece26928bcef52a">
+         <CoverageCd>TL</CoverageCd>
+         <CoverageDesc>Towing</CoverageDesc>
+         <Limit id="da27f80313304036babfb4bb0e487efa">
+            <FormatInteger>3</FormatInteger>
+         </Limit>
+      </Coverage>
+      <Coverage id="1798fb66afce4be5900d873cfeea043e">
+         <CoverageCd>MEDPM</CoverageCd>
+         <CoverageDesc>Medical</CoverageDesc>
+         <Limit id="6840f6ebfc664580b464f5aac296d723">
+            <FormatInteger>5000</FormatInteger>
+            <LimitAppliesToCd>Medical</LimitAppliesToCd>
+            <LimitExt>
+               <CodeDesc>Standard</CodeDesc>
+            </LimitExt>
+         </Limit>
+      </Coverage>
+      <Coverage id="4395745efd234c72a986c0dba621e5d7">
+         <CoverageCd>COMP</CoverageCd>
+         <CoverageDesc>OTC</CoverageDesc>
+         <Deductible>
+            <FormatInteger>250</FormatInteger>
+         </Deductible>
+      </Coverage>
+      <Coverage id="eacef936f462488395e0289bb6ee5b35">
+         <CoverageCd>COLL</CoverageCd>
+         <CoverageDesc>Collision</CoverageDesc>
+         <Deductible>
+            <FormatInteger>500</FormatInteger>
+         </Deductible>
+      </Coverage>
+   </CommlAutoLineBusiness>
+   <CommlUmbrellaLineBusiness id="38228007c4724ec183317ee602eaeca6">
+      <LOBCd>UMBRC</LOBCd>
+      <Coverage>
+         <CoverageCd>CUMBR</CoverageCd>
+         <Limit id="6529ed1a89584b99890c33625b0ce300">
+            <FormatText>1000000</FormatText>
+            <LimitAppliesToCd>Coverage</LimitAppliesToCd>
+         </Limit>
+         <Limit id="54a01e91b1a0421a820c040d8f6a683f">
+            <FormatText>Waived</FormatText>
+            <LimitAppliesToCd>SIR</LimitAppliesToCd>
+         </Limit>
+      </Coverage>
+      <Coverage id="6d678d78d7e04c59b75804247bcee90e">
+         <CoverageDesc>SBOP</CoverageDesc>
+         <ExposureInfo>
+            <QuestionAnswer>
+               <Explanation>1.000</Explanation>
+               <QuestionText>SBOPScheduledModification</QuestionText>
+            </QuestionAnswer>
+            <QuestionAnswer>
+               <Explanation>0</Explanation>
+               <QuestionText>UmbrellaSBOPCooperationMedicalModification</QuestionText>
+            </QuestionAnswer>
+            <QuestionAnswer>
+               <Explanation>0</Explanation>
+               <QuestionText>UmbrellaSBOPCooperationSafetyModification</QuestionText>
+            </QuestionAnswer>
+            <QuestionAnswer>
+               <Explanation>0</Explanation>
+               <QuestionText>UmbrellaSBOPEmployeesModification</QuestionText>
+            </QuestionAnswer>
+            <QuestionAnswer>
+               <Explanation>0</Explanation>
+               <QuestionText>UmbrellaSBOPEquipmentModification</QuestionText>
+            </QuestionAnswer>
+            <QuestionAnswer>
+               <Explanation>0</Explanation>
+               <QuestionText>UmbrellaSBOPLocationInModification</QuestionText>
+            </QuestionAnswer>
+            <QuestionAnswer>
+               <Explanation>0</Explanation>
+               <QuestionText>UmbrellaSBOPLocationOutModification</QuestionText>
+            </QuestionAnswer>
+            <QuestionAnswer>
+               <Explanation>0</Explanation>
+               <QuestionText>UmbrellaSBOPManagementModification</QuestionText>
+            </QuestionAnswer>
+            <QuestionAnswer>
+               <Explanation>0</Explanation>
+               <QuestionText>UmbrellaSBOPPremisesModification</QuestionText>
+            </QuestionAnswer>
+         </ExposureInfo>
+      </Coverage>
+      <UnderlyingExposureInfo id="585b0981200848c9b2a871fbf526ceeb">
+         <CoverageCd>AUTOB</CoverageCd>
+         <ExposureInd>true</ExposureInd>
+         <Description>IncludeCommercialAuto</Description>
+      </UnderlyingExposureInfo>
+      <UnderlyingExposureInfo id="ad2a462a94b346538482bce6e57a1d96">
+         <CoverageCd>EL</CoverageCd>
+         <ExposureInd>false</ExposureInd>
+         <Description>IncludeEmployersLiability</Description>
+      </UnderlyingExposureInfo>
+      <UnderlyingExposureInfo id="cfd5529dac5d49258ada33a1a91bfedc">
+         <CoverageCd>CGL</CoverageCd>
+         <ExposureInd>false</ExposureInd>
+         <Description>IncludeGeneralLiability</Description>
+      </UnderlyingExposureInfo>
+      <UnderlyingExposureInfo id="37a9ce5e0f6b44fd9d0dac4b1f0de6f8">
+         <CoverageCd>BOP</CoverageCd>
+         <ExposureInd>true</ExposureInd>
+         <Description>IncludeSBOPLiability</Description>
+      </UnderlyingExposureInfo>
+      <UnderlyingExposureInfo id="7768a14a08e5448fbf4f3627e7b973de">
+         <CoverageCd>BOP</CoverageCd>
+         <ExposureInd>false</ExposureInd>
+         <Description>IncludeBusinessowners</Description>
+      </UnderlyingExposureInfo>
+      <UnderlyingExposureInfo id="d443ca2c73ab4d97ba2010ab7f33c076">
+         <CoverageCd>BOP</CoverageCd>
+         <ExposureInd>false</ExposureInd>
+         <Description>IncludeSMARTbusiness</Description>
+      </UnderlyingExposureInfo>
+      <QuestionAnswer>
+         <QuestionText>Treaty</QuestionText>
+         <QuestionTextReference>TreatyOrFacultative</QuestionTextReference>
+      </QuestionAnswer>
+      <QuestionAnswer>
+         <YesNoCd>NO</YesNoCd>
+         <QuestionText>LiquorLiabilityCoveredUnderWBMI</QuestionText>
+      </QuestionAnswer>
+      <QuestionAnswer>
+         <YesNoCd>YES</YesNoCd>
+         <QuestionText>Terrorism</QuestionText>
+      </QuestionAnswer>
+      <QuestionAnswer>
+         <YesNoCd>NO</YesNoCd>
+         <QuestionText>Over5MillionSales</QuestionText>
+      </QuestionAnswer>
+      <QuestionAnswer>
+         <YesNoCd>NO</YesNoCd>
+         <QuestionText>MotelOver100Units</QuestionText>
+      </QuestionAnswer>
+   </CommlUmbrellaLineBusiness>
+   <GeneralLiabilityLineBusiness id="404b7fd68f33438db307844c863b3df0">
+      <LOBCd>BOPGL</LOBCd>
+      <RateEffectiveDt>2019-08-29</RateEffectiveDt>
+      <LiabilityInfo>
+         <Coverage id="a1a26425a42d4e219bb18ed856cca818">
+            <CoverageCd>UNKNOWN</CoverageCd>
+            <CoverageTypeCd>Coverage</CoverageTypeCd>
+            <CoverageDesc>PlusPak</CoverageDesc>
+            <CoverageSupplement/>
+            <CoverageExt>
+               <ActiveInd>true</ActiveInd>
+            </CoverageExt>
+         </Coverage>
+         <Coverage id="9611dc6ad6e2498f828f6f254217e528">
+            <CoverageCd>EAOCC</CoverageCd>
+            <Limit>
+               <FormatInteger>1000000</FormatInteger>
+            </Limit>
+         </Coverage>
+         <Coverage id="a77410c7ba644da0ba1ed58be9595684">
+            <CoverageCd>MALeadLiabilityPerOccurenceLimit</CoverageCd>
+            <Limit>
+               <FormatInteger>1000000</FormatInteger>
+            </Limit>
+         </Coverage>
+         <Coverage id="aebade46be25411c87c2d882e33bfc9b">
+            <CoverageCd>LiquorCommonCauseLimit</CoverageCd>
+            <Limit>
+               <FormatInteger>1000000</FormatInteger>
+            </Limit>
+         </Coverage>
+         <Coverage id="76eea0913abb44328f314c3ed1a6aecf">
+            <CoverageCd>GENAG</CoverageCd>
+            <Limit>
+               <FormatInteger>2000000</FormatInteger>
+            </Limit>
+         </Coverage>
+         <Coverage id="ec5023afd06c437eadf461436ccb4c84">
+            <CoverageCd>PRDCO</CoverageCd>
+            <Limit>
+               <FormatInteger>2000000</FormatInteger>
+            </Limit>
+         </Coverage>
+         <Coverage id="b95acd9b53774e1da36554893fb2897d">
+            <CoverageCd>ExistenceHazardAggregateLimit</CoverageCd>
+            <Limit>
+               <FormatInteger>2000000</FormatInteger>
+            </Limit>
+         </Coverage>
+         <Coverage id="bf6f3d60fe50404caca1d385dbcd7a8c">
+            <CoverageCd>PIADV</CoverageCd>
+            <CoverageTypeCd>Coverage</CoverageTypeCd>
+            <CoverageDesc>PersonalAdvertisingInjury</CoverageDesc>
+            <Limit id="9e29a031df90471abcc32e3df0e925e9">
+               <FormatInteger>1000000</FormatInteger>
+               <LimitAppliesToCd>Aggregate</LimitAppliesToCd>
+               <LimitExt>
+                  <CodeDesc>AggregateLimit</CodeDesc>
+               </LimitExt>
+            </Limit>
+            <CoverageSupplement/>
+            <ExposureInfo>
+               <QuestionAnswer id="f7418eb3b4ba44efab3d56acd5de15a4">
+                  <Explanation>Include</Explanation>
+                  <QuestionText>PersonalAdvertisingInjury</QuestionText>
+               </QuestionAnswer>
+               <ExposureCategoryCd>Fixed</ExposureCategoryCd>
+            </ExposureInfo>
+            <CoverageExt>
+               <ActiveInd>true</ActiveInd>
+            </CoverageExt>
+         </Coverage>
+         <Coverage id="d7810e1cf51543abb08a1f861d5bd74f">
+            <CoverageCd>FIRDM</CoverageCd>
+            <CoverageTypeCd>Coverage</CoverageTypeCd>
+            <CoverageDesc>FireDamage</CoverageDesc>
+            <Limit id="fdd45af33e484c1398c97a473001b502">
+               <FormatInteger>300000</FormatInteger>
+               <LimitAppliesToCd>Aggregate</LimitAppliesToCd>
+               <LimitExt>
+                  <CodeDesc>AggregateLimit</CodeDesc>
+               </LimitExt>
+            </Limit>
+            <CoverageSupplement/>
+            <ExposureInfo>
+               <QuestionAnswer id="b3d4de4abb654830ae58791ef42cc906">
+                  <Explanation>Include</Explanation>
+                  <QuestionText>FireDamage</QuestionText>
+               </QuestionAnswer>
+               <QuestionAnswer id="36cbf037d7ff4044b343c1f669575d80">
+                  <Num>300000</Num>
+                  <QuestionText>FireDamageIncreaseLimit</QuestionText>
+               </QuestionAnswer>
+               <ExposureCategoryCd>Fixed</ExposureCategoryCd>
+            </ExposureInfo>
+            <CoverageExt>
+               <ActiveInd>true</ActiveInd>
+            </CoverageExt>
+         </Coverage>
+         <Coverage id="323e9ad8071b4ca6b043a459d5f2fd2a">
+            <CoverageCd>PSABU</CoverageCd>
+            <CoverageTypeCd>Coverage</CoverageTypeCd>
+            <CoverageDesc>NS0024</CoverageDesc>
+            <Limit id="abd60f4195e045f8ba6bed34a5ceff8c">
+               <FormatInteger>0</FormatInteger>
+               <LimitAppliesToCd>UNKNOWN</LimitAppliesToCd>
+            </Limit>
+            <Deductible id="ca3e4c4ef23742d6ba68e2a90b2baeab">
+               <FormatInteger>0</FormatInteger>
+               <DeductibleTypeCd>Standard</DeductibleTypeCd>
+            </Deductible>
+            <CoverageSupplement/>
+            <ExposureInfo>
+               <QuestionAnswer id="71a1be7f6dea4008867b62b6eb4c9ba6">
+                  <Explanation>Exterminator and pest control operations</Explanation>
+                  <QuestionText>Description1</QuestionText>
+               </QuestionAnswer>
+               <QuestionAnswer id="2a2579e9cafd4e97b40a8fa4db43ece5">
+                  <Num>0</Num>
+                  <QuestionText>NumberOfRentalUnits</QuestionText>
+               </QuestionAnswer>
+               <QuestionAnswer id="5ead6d1e31dd491f8aeb6f83c1ad93a3">
+                  <QuestionText>RetroactiveDate</QuestionText>
+               </QuestionAnswer>
+               <ExposureCategoryCd>Fixed</ExposureCategoryCd>
+            </ExposureInfo>
+            <CoverageExt>
+               <ActiveInd>true</ActiveInd>
+            </CoverageExt>
+         </Coverage>
+         <Coverage>
+            <CoverageDesc>AbuseMolestation</CoverageDesc>
+         </Coverage>
+         <Coverage id="eeb3db631973425aaf0d74e7230cc5f4">
+            <CoverageCd>UNKNOWN</CoverageCd>
+            <CoverageTypeCd>Coverage</CoverageTypeCd>
+            <CoverageDesc>NS0279</CoverageDesc>
+            <Limit id="dc9ee6e4880748d295c5978c8b16cf4b">
+               <FormatInteger>0</FormatInteger>
+               <LimitAppliesToCd>UNKNOWN</LimitAppliesToCd>
+            </Limit>
+            <Limit id="5ee8c426931f4c4c8260d64b3120b690">
+               <FormatInteger>250000</FormatInteger>
+               <LimitAppliesToCd>UNKNOWN</LimitAppliesToCd>
+            </Limit>
+            <Limit id="4aa13f1f0dfd4de286b6a5b4cb804b1f">
+               <FormatInteger>250000</FormatInteger>
+               <LimitAppliesToCd>Aggregate</LimitAppliesToCd>
+            </Limit>
+            <Deductible id="8a2ad8e2adae4570bc280fdc87848068">
+               <FormatInteger>0</FormatInteger>
+               <DeductibleTypeCd>Standard</DeductibleTypeCd>
+            </Deductible>
+            <CoverageSupplement/>
+            <ExposureInfo>
+               <QuestionAnswer id="6fd06164ca134bbbbb46397d9e67ca5f">
+                  <Explanation>Exterminator and pest control operations</Explanation>
+                  <QuestionText>Description1</QuestionText>
+               </QuestionAnswer>
+               <QuestionAnswer id="136a1008340e4ab482d73dd09072b178">
+                  <Num>0</Num>
+                  <QuestionText>NumberOfRentalUnits</QuestionText>
+               </QuestionAnswer>
+               <QuestionAnswer id="a3a04602828d46209ec72d9b1d52ddb6">
+                  <QuestionText>RetroactiveDate</QuestionText>
+               </QuestionAnswer>
+               <ExposureCategoryCd>Fixed</ExposureCategoryCd>
+            </ExposureInfo>
+            <CoverageExt>
+               <ActiveInd>true</ActiveInd>
+            </CoverageExt>
+         </Coverage>
+         <Coverage>
+            <CoverageCd>EPLI</CoverageCd>
+            <Limit>
+               <FormatInteger>250000</FormatInteger>
+               <LimitAppliesToCd>PerOcc</LimitAppliesToCd>
+            </Limit>
+            <CoverageSupplement>
+               <QuestionAnswer>
+                  <Num>34</Num>
+                  <QuestionText>EmploymentPracticesNumberOfEmployees</QuestionText>
+               </QuestionAnswer>
+            </CoverageSupplement>
+         </Coverage>
+         <Coverage id="e4586be169e9459f9039ee8060d472ec">
+            <CoverageCd>EBLIA</CoverageCd>
+            <CoverageTypeCd>Coverage</CoverageTypeCd>
+            <CoverageDesc>WB985</CoverageDesc>
+            <Limit id="37e388f93af24c1b9a4e93dc40144247">
+               <FormatInteger>0</FormatInteger>
+               <LimitAppliesToCd>UNKNOWN</LimitAppliesToCd>
+            </Limit>
+            <Limit id="42dbd4af00364a0baa48284e202cde12">
+               <FormatInteger>0</FormatInteger>
+               <LimitAppliesToCd>UNKNOWN</LimitAppliesToCd>
+            </Limit>
+            <Deductible id="82133f72263747ecbe171438225f1475">
+               <FormatInteger>0</FormatInteger>
+               <DeductibleTypeCd>Standard</DeductibleTypeCd>
+            </Deductible>
+            <CoverageSupplement/>
+            <ExposureInfo>
+               <QuestionAnswer id="cd5078b159724e2faf5f2f144f246934">
+                  <Explanation>Exterminator and pest control operations</Explanation>
+                  <QuestionText>Description1</QuestionText>
+               </QuestionAnswer>
+               <QuestionAnswer id="70de0851363740a6a81e922467abf766">
+                  <Num>0</Num>
+                  <QuestionText>NumberOfRentalUnits</QuestionText>
+               </QuestionAnswer>
+               <QuestionAnswer id="9341e7def8f84485b6e56c6f59339813">
+                  <QuestionText>RetroactiveDate</QuestionText>
+               </QuestionAnswer>
+               <ExposureCategoryCd>Fixed</ExposureCategoryCd>
+            </ExposureInfo>
+            <CoverageExt>
+               <ActiveInd>true</ActiveInd>
+            </CoverageExt>
+         </Coverage>
+         <Coverage>
+            <CoverageCd>EBLIA</CoverageCd>
+            <Limit>
+               <FormatInteger>500000</FormatInteger>
+               <LimitAppliesToCd>PerOcc</LimitAppliesToCd>
+            </Limit>
+            <Limit>
+               <FormatInteger>500000</FormatInteger>
+               <LimitAppliesToCd>Aggregate</LimitAppliesToCd>
+            </Limit>
+         </Coverage>
+         <Coverage id="faaa2ac5f571446eb64100f3767ae563">
+            <CoverageCd>FUNGI</CoverageCd>
+            <CoverageTypeCd>Coverage</CoverageTypeCd>
+            <CoverageDesc>FungiBacteria</CoverageDesc>
+            <CoverageSupplement/>
+            <ExposureInfo>
+               <QuestionAnswer id="f547822635944dc3abd0a5f0bd93680b">
+                  <Explanation>100000</Explanation>
+                  <QuestionText>FungiBacteriaOccurrenceLimit</QuestionText>
+               </QuestionAnswer>
+               <QuestionAnswer id="776d6ada520f43f1a7286706bf9ec60f">
+                  <Explanation>Include</Explanation>
+                  <QuestionText>FungiBacteria</QuestionText>
+               </QuestionAnswer>
+               <QuestionAnswer id="20d6c221eeca4cfab073de2dbd7eac65">
+                  <Explanation>200000</Explanation>
+                  <QuestionText>FungiBacteriaAggregateLimit</QuestionText>
+               </QuestionAnswer>
+               <QuestionAnswer>
+                  <QuestionText>FungiFactor</QuestionText>
+                  <QuestionTextReference>FungiBacteria</QuestionTextReference>
+               </QuestionAnswer>
+               <ExposureCategoryCd>Fixed</ExposureCategoryCd>
+            </ExposureInfo>
+            <CoverageExt>
+               <ActiveInd>true</ActiveInd>
+            </CoverageExt>
+         </Coverage>
+         <Coverage>
+            <CoverageDesc>StudentGroupAccidentPolicy</CoverageDesc>
+         </Coverage>
+         <Coverage id="0479f6b2bbc44150bef3d5379e42dfeb">
+            <CoverageCd>SWMPL</CoverageCd>
+            <CoverageTypeCd>Coverage</CoverageTypeCd>
+            <CoverageDesc>NS0130</CoverageDesc>
+            <Limit id="a893a033ca984186954595aab58c2c7a">
+               <FormatInteger>0</FormatInteger>
+               <LimitAppliesToCd>UNKNOWN</LimitAppliesToCd>
+               <LimitExt>
+                  <CodeDesc>AggregateLimitCG0429Z</CodeDesc>
+               </LimitExt>
+            </Limit>
+            <Limit id="3b5658c9cb8b4b65a0c42fabdd9bb00b">
+               <FormatInteger>150000</FormatInteger>
+               <LimitAppliesToCd>UNKNOWN</LimitAppliesToCd>
+               <LimitExt>
+                  <CodeDesc>WaterActivities</CodeDesc>
+               </LimitExt>
+            </Limit>
+            <Deductible id="e112f3dcf6ed4b249041b458938144f6">
+               <FormatInteger>0</FormatInteger>
+               <DeductibleTypeCd>Standard</DeductibleTypeCd>
+            </Deductible>
+            <CoverageSupplement/>
+            <ExposureInfo>
+               <QuestionAnswer id="ff4e5b9d8c4840b4b077404ad8b11a59">
+                  <Explanation>Exterminator and pest control operations</Explanation>
+                  <QuestionText>Description1</QuestionText>
+               </QuestionAnswer>
+               <QuestionAnswer id="93ddbaa12dca480c9da337328d14767a">
+                  <Num>0</Num>
+                  <QuestionText>NumberOfRentalUnits</QuestionText>
+               </QuestionAnswer>
+               <QuestionAnswer id="1cc6331fb36149c7ae4ed8e58571f40b">
+                  <QuestionText>RetroactiveDate</QuestionText>
+               </QuestionAnswer>
+               <ExposureCategoryCd>Fixed</ExposureCategoryCd>
+            </ExposureInfo>
+            <CoverageExt>
+               <ActiveInd>true</ActiveInd>
+            </CoverageExt>
+         </Coverage>
+         <Coverage>
+            <CoverageDesc>WaterActivities</CoverageDesc>
+            <Limit id="62c447e0c49c491691b57c51e5d2b2d9">
+               <FormatInteger>150000</FormatInteger>
+               <LimitAppliesToCd>SUB</LimitAppliesToCd>
+               <LimitExt>
+                  <CodeDesc>150000SubLimit</CodeDesc>
+               </LimitExt>
+            </Limit>
+            <ExposureInfo>
+               <Description>WadingPool</Description>
+               <OffPremisesInd>false</OffPremisesInd>
+               <QuestionAnswer>
+                  <YesNoCd>YES</YesNoCd>
+                  <QuestionText>Lifeguard</QuestionText>
+               </QuestionAnswer>
+            </ExposureInfo>
+         </Coverage>
+         <Coverage id="91d2d759c642456dbcdb3a8172f25cb7">
+            <CoverageCd>MEDEX</CoverageCd>
+            <CoverageTypeCd>Coverage</CoverageTypeCd>
+            <CoverageDesc>Medical</CoverageDesc>
+            <Limit id="bdecc2b317c144b897e3c7884f8bfe78">
+               <FormatInteger>10000</FormatInteger>
+               <LimitAppliesToCd>Aggregate</LimitAppliesToCd>
+            </Limit>
+            <CoverageSupplement/>
+            <ExposureInfo>
+               <QuestionAnswer id="13984a4ca4ea465fbe103ec4cbd9427d">
+                  <Explanation>Include</Explanation>
+                  <QuestionText>Medical</QuestionText>
+               </QuestionAnswer>
+               <QuestionAnswer id="6165adf8b263457e8f1eb9dfee2a18bc">
+                  <Explanation>10000</Explanation>
+                  <QuestionText>MedicalDecreasedLimit</QuestionText>
+               </QuestionAnswer>
+               <QuestionAnswer id="3f8bc75b4eda4c1a98e7e59123056d2e">
+                  <QuestionText>MedicalIncreasedLimit</QuestionText>
+               </QuestionAnswer>
+               <QuestionAnswer id="18233a2b16e44a07823266d9374306d1">
+                  <QuestionText>ClassificationGroup</QuestionText>
+               </QuestionAnswer>
+               <ExposureCategoryCd>Fixed</ExposureCategoryCd>
+            </ExposureInfo>
+            <CoverageExt>
+               <ActiveInd>true</ActiveInd>
+            </CoverageExt>
+         </Coverage>
+         <Coverage id="660301565805774370">
+            <CoverageCd>UNKNOWN</CoverageCd>
+            <CoverageTypeCd>Coverage</CoverageTypeCd>
+            <CoverageDesc>AdditionalInterests</CoverageDesc>
+            <CoverageSupplement/>
+            <ExposureInfo>
+               <QuestionAnswer id="5c4fcf1f91c233c19d73d275e5964e22">
+                  <Explanation>Additional Insured_Co-Owner Insured_Premises_Dennis_Testing_DXP_Liferay_Take2</Explanation>
+                  <QuestionText>Name</QuestionText>
+               </QuestionAnswer>
+               <QuestionAnswer id="4e36b9200c0936a5b0bcec2a7aa80820">
+                  <Explanation>Additional Insured_Co-Owner Insured_Premises_Dennis_Testing_DXP_Liferay_Take2 [BP0410] - Additional Insured - Owners or Other Interests from whom Land has been Leased</Explanation>
+                  <QuestionText>DetailDescription</QuestionText>
+               </QuestionAnswer>
+               <QuestionAnswer>
+                  <Explanation>BP0410</Explanation>
+                  <QuestionText>AdditionalOtherInterestType</QuestionText>
+               </QuestionAnswer>
+               <QuestionAnswer id="766b09e62f873086aba7f9c86665de8d">
+                  <Explanation>1</Explanation>
+                  <QuestionOccurrenceInfo/>
+                  <QuestionText>ExperienceMod</QuestionText>
+                  <QuestionTextReference>Liability</QuestionTextReference>
+               </QuestionAnswer>
+               <QuestionAnswer>
+                  <QuestionText>BasePremium</QuestionText>
+               </QuestionAnswer>
+            </ExposureInfo>
+            <CoverageExt>
+               <ActiveInd>true</ActiveInd>
+            </CoverageExt>
+         </Coverage>
+         <GeneralLiabilityClassification id="497a754a9d1f376a9e24fd852dfe3fdc"
+                                         LocationRef="660301565805090859"
+                                         SubLocationRef="1639660301565805090859">
+            <ClassCd>70323</ClassCd>
+            <ClassCdDesc>1639|[70323]BEFORE AND AFTER SCHOOL PROGRAM (1-5 CHILDREN)</ClassCdDesc>
+            <TerritoryCd>509</TerritoryCd>
+            <StateProvCd>IL</StateProvCd>
+            <PremiumBasisCd>OT</PremiumBasisCd>
+            <PremiumBasisDesc>Licensed</PremiumBasisDesc>
+            <ExposureInfo>
+               <PremiumBasisCd>UNKNOWN</PremiumBasisCd>
+               <Exposure>1</Exposure>
+               <ExposureInfoExt>
+                  <PremiumBasisDesc>Licensed</PremiumBasisDesc>
+               </ExposureInfoExt>
+            </ExposureInfo>
+            <Coverage id="6d1c457ea5b43d489c9df67478503fb6">
+               <CoverageCd>UNKNOWN</CoverageCd>
+               <CoverageTypeCd>Coverage</CoverageTypeCd>
+               <CoverageDesc>BusinessOwners</CoverageDesc>
+               <CoverageSupplement/>
+               <CoverageExt>
+                  <ActiveInd>true</ActiveInd>
+               </CoverageExt>
+            </Coverage>
+            <GeneralLiabilityClassificationExt>
+               <OccupationClassInfo id="1639660301565805090859"/>
+            </GeneralLiabilityClassificationExt>
+         </GeneralLiabilityClassification>
+         <GeneralLiabilityClassification id="7da4a4ef896430ba997965cfd51249a6"
+                                         LocationRef="660301565805090859"
+                                         SubLocationRef="1640660301565805090859">
+            <ClassCd>70324</ClassCd>
+            <ClassCdDesc>1640|[70324]BEFORE AND AFTER SCHOOL PROGRAM - EACH ADDITIONAL CHILD</ClassCdDesc>
+            <TerritoryCd>509</TerritoryCd>
+            <StateProvCd>IL</StateProvCd>
+            <PremiumBasisCd>OT</PremiumBasisCd>
+            <PremiumBasisDesc>Licensed</PremiumBasisDesc>
+            <ExposureInfo>
+               <PremiumBasisCd>UNKNOWN</PremiumBasisCd>
+               <Exposure>60</Exposure>
+               <ExposureInfoExt>
+                  <PremiumBasisDesc>Licensed</PremiumBasisDesc>
+               </ExposureInfoExt>
+            </ExposureInfo>
+            <Coverage id="ec01a1529a6530009ffe3eb7b2844daa">
+               <CoverageCd>UNKNOWN</CoverageCd>
+               <CoverageTypeCd>Coverage</CoverageTypeCd>
+               <CoverageDesc>BusinessOwners</CoverageDesc>
+               <CoverageSupplement/>
+               <CoverageExt>
+                  <ActiveInd>true</ActiveInd>
+               </CoverageExt>
+            </Coverage>
+            <GeneralLiabilityClassificationExt>
+               <OccupationClassInfo id="1640660301565805090859"/>
+            </GeneralLiabilityClassificationExt>
+         </GeneralLiabilityClassification>
+         <GeneralLiabilityClassification id="616de1b9959e3d3d81bd0dba3bad62eb"
+                                         LocationRef="660301565805090859"
+                                         SubLocationRef="1650660301565805090859">
+            <ClassCd>70332</ClassCd>
+            <ClassCdDesc>1650|[70332]SBOP APARTMENT LIABILITY</ClassCdDesc>
+            <TerritoryCd>509</TerritoryCd>
+            <StateProvCd>IL</StateProvCd>
+            <PremiumBasisCd>Unit</PremiumBasisCd>
+            <PremiumBasisDesc/>
+            <ExposureInfo>
+               <PremiumBasisCd>UNKNOWN</PremiumBasisCd>
+               <Exposure>2</Exposure>
+            </ExposureInfo>
+            <Coverage id="36ce3138c32a3162ae0929e4078bf5be">
+               <CoverageCd>UNKNOWN</CoverageCd>
+               <CoverageTypeCd>Coverage</CoverageTypeCd>
+               <CoverageDesc>BusinessOwners</CoverageDesc>
+               <CoverageSupplement/>
+               <CoverageExt>
+                  <ActiveInd>true</ActiveInd>
+               </CoverageExt>
+            </Coverage>
+            <GeneralLiabilityClassificationExt>
+               <OccupationClassInfo id="1650660301565805090859"/>
+            </GeneralLiabilityClassificationExt>
+         </GeneralLiabilityClassification>
+         <GeneralLiabilityClassification id="a8d6184edb563947a1f5a2f40433ed9c"
+                                         LocationRef="660301565805090859"
+                                         SubLocationRef="1651660301565805090859">
+            <ClassCd>70333</ClassCd>
+            <ClassCdDesc>1651|[70333]SBOP LESSOR'S RISK LIABILITY</ClassCdDesc>
+            <TerritoryCd>509</TerritoryCd>
+            <StateProvCd>IL</StateProvCd>
+            <PremiumBasisCd>AREA</PremiumBasisCd>
+            <PremiumBasisDesc>SqFeet</PremiumBasisDesc>
+            <ExposureInfo>
+               <PremiumBasisCd>AREA</PremiumBasisCd>
+               <Exposure>1254</Exposure>
+               <ExposureInfoExt>
+                  <PremiumBasisDesc>SqFeet</PremiumBasisDesc>
+               </ExposureInfoExt>
+            </ExposureInfo>
+            <Coverage id="22338b84e0243cd29822fd607fb091dc">
+               <CoverageCd>UNKNOWN</CoverageCd>
+               <CoverageTypeCd>Coverage</CoverageTypeCd>
+               <CoverageDesc>BusinessOwners</CoverageDesc>
+               <CoverageSupplement/>
+               <CoverageExt>
+                  <ActiveInd>true</ActiveInd>
+               </CoverageExt>
+            </Coverage>
+            <GeneralLiabilityClassificationExt>
+               <OccupationClassInfo id="1651660301565805090859"/>
+            </GeneralLiabilityClassificationExt>
+         </GeneralLiabilityClassification>
+      </LiabilityInfo>
+      <GeneralLiabilityLineBusinessExt>
+         <Clearance xmlns="">
+            <ClearedDateTimeStamp>2019-08-14T11:55:21.672</ClearedDateTimeStamp>
+         </Clearance>
+      </GeneralLiabilityLineBusinessExt>
+      <QuestionAnswer id="a4c00d7047ff4a0399f6a920e44bccf2">
+         <Explanation>1.000</Explanation>
+         <QuestionText>scheduledMod</QuestionText>
+         <QuestionTextReference>TotalInputLiability</QuestionTextReference>
+      </QuestionAnswer>
+   </GeneralLiabilityLineBusiness>
+</CommlPkgPolicyQuoteInqRq>
