@@ -8,7 +8,7 @@ import csv
 
 current_dir = os.getcwd()
 
-source_folder = os.path.join(current_dir, "source")
+acords_folder = os.path.join(current_dir, "acords")
 fail_folder = os.path.join(current_dir, "fail")
 pass_folder = os.path.join(current_dir, "pass")
 results_folder = os.path.join(current_dir, "results")
@@ -42,28 +42,24 @@ def create_folders():
 # In a .txt file leading zeros are present. 
 def create_csv():
 
-	input_folder = os.listdir(source_folder)
-	os.chdir(results_folder)
+	
+	os.chdir(acords_folder)
 
-	csv_file_count = 1
-	count = 0
-	ids_per_csv = 10
+	# csv_file_count = 1
+	# count = 0
+	# ids_per_csv = 10
 
-	f = open(str(csv_file_count) + '.csv','w')
+	csv_file = open('acords.csv','w')
 
-	for file in input_folder:
-		file_name = os.path.splitext(file)[0]
+	for folder in os.listdir(acords_folder):
+		current_folder =  os.path.join(acords_folder, folder)
+		if os.path.isdir(current_folder):
+			for file in os.listdir(current_folder):
+				file_name = os.path.splitext(file)[0]
+				output = (folder + "/" + file_name)
+				csv_file.write(output + "\n")
 
-		if count < ids_per_csv:
-			f.write(file_name+'\n')
-			count = count +1
-		if count == ids_per_csv:
-			f.close()
-			csv_file_count += 1
-			f = open(str(csv_file_count) + '.csv','w')
-			count = 0
-
-	f.close()
+	csv_file.close()
 
 
 
@@ -71,8 +67,8 @@ def create_csv():
 # TODO: 
 def process_files():
 
-	os.chdir(source_folder)
-	folder = os.listdir(source_folder)
+	os.chdir(acords_folder)
+	folder = os.listdir(acords_folder)
 	
 
 	for file in folder:
