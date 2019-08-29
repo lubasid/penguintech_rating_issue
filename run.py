@@ -19,7 +19,7 @@ def main():
 
 	create_folders()
 	create_csv()
-	process_files()
+	# process_files()
 
 
 # Create pass/fail/results folders if they don't exist
@@ -37,6 +37,9 @@ def create_folders():
 
 	
 # Create csv files from xml file names
+
+# NOTE: In a .csv leading zeros in a number are removed. 
+# In a .txt file leading zeros are present. 
 def create_csv():
 
 	input_folder = os.listdir(source_folder)
@@ -49,8 +52,10 @@ def create_csv():
 	f = open(str(csv_file_count) + '.csv','w')
 
 	for file in input_folder:
+		file_name = os.path.splitext(file)[0]
+
 		if count < ids_per_csv:
-			f.write(file+'\n')
+			f.write(file_name+'\n')
 			count = count +1
 		if count == ids_per_csv:
 			f.close()
